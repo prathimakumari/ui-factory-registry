@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "content-docs",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Developer Documentation",
+  "description": "Searchable documentation navigation, practical guides and copyable code examples.",
+  "tags": ["documentation", "developer", "content"],
+  "files": ["components/sections/documentation.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "DocumentationSection",
+  "group": "content",
+  "variant": "docs",
+  "components": ["ui-button", "ui-input"],
+  "responsive": true,
+  "accessible": true
+}

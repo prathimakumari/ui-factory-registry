@@ -1,0 +1,1 @@
+Read AGENTS.md and docs/agent-usage.md. Search registry/index.json for the requested template, style, theme, motion and sections. Open only their manifests and required sources. Reuse existing code and tokens. Validate the configuration, supply application content and behavior, run relevant checks, and report IDs/files reused and any missing functionality.

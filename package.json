@@ -1,0 +1,59 @@
+{
+  "name": "ui-factory-registry",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "pnpm registry:generate && next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "registry:generate": "tsx scripts/generate-registry.ts",
+    "mobile:generate": "tsx scripts/generate-mobile.ts",
+    "registry:list": "tsx scripts/list-registry.ts",
+    "registry:validate": "tsx scripts/validate-registry.ts",
+    "registry:sync-dependencies": "tsx scripts/sync-dependencies.ts",
+    "registry:test": "vitest run tests",
+    "registry:export": "tsx scripts/export-template.ts",
+    "registry:build": "pnpm registry:generate && shadcn build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "1.53.0",
+    "motion": "14.0.0",
+    "next": "16.4.0",
+    "radix-ui": "1.7.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "tailwind-merge": "3.7.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "@testing-library/jest-dom": "7.0.1",
+    "@testing-library/react": "16.3.3",
+    "@types/node": "26.6.4",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.0",
+    "jsdom": "30.1.2",
+    "prettier": "3.9.9",
+    "shadcn": "4.21.4",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "vitest": "5.0.3"
+  },
+  "packageManager": "pnpm@12.10.1",
+  "engines": {
+    "node": ">=22.12"
+  }
+}

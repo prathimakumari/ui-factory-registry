@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "pricing-toggle",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Pricing Toggle",
+  "description": "Toggle pricing composition.",
+  "tags": ["section"],
+  "files": ["components/sections/pricing.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "PricingSection",
+  "group": "pricing",
+  "variant": "toggle",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "playful",
+  "version": "1.0.0",
+  "kind": "motion",
+  "name": "Playful",
+  "description": "Playful configurable motion; disabled for reduced motion.",
+  "tags": ["motion"],
+  "files": ["components/motion/primitives.tsx", "components/motion/patterns.tsx", "lib/motion.ts"],
+  "dependencies": ["motion", "react", "zod"],
+  "duration": 0.45,
+  "ease": [0.22, 1, 0.36, 1],
+  "distance": 20,
+  "scale": 0.9,
+  "stagger": 0.08,
+  "spring": {
+    "stiffness": 240,
+    "damping": 16,
+    "mass": 1
+  },
+  "hover": 1.045,
+  "scroll": false,
+  "pattern": "scale",
+  "reducedMotion": "disable"
+}

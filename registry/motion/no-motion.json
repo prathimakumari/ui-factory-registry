@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "no-motion",
+  "version": "1.0.0",
+  "kind": "motion",
+  "name": "No Motion",
+  "description": "No Motion configurable motion; disabled for reduced motion.",
+  "tags": ["motion"],
+  "files": ["components/motion/primitives.tsx", "components/motion/patterns.tsx", "lib/motion.ts"],
+  "dependencies": ["motion", "react", "zod"],
+  "duration": 0,
+  "ease": [0.22, 1, 0.36, 1],
+  "distance": 0,
+  "scale": 1,
+  "stagger": 0,
+  "spring": null,
+  "hover": 1,
+  "scroll": false,
+  "pattern": "none",
+  "reducedMotion": "disable"
+}

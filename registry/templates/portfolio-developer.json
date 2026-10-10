@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "id": "portfolio-developer",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Portfolio Developer",
+  "description": "Frontend engineer working at the intersection of accessible interfaces and thoughtful systems.",
+  "tags": ["marketing", "terminal", "alex-morgan"],
+  "files": ["registry/templates/portfolio-developer.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "marketing",
+  "defaultStyleId": "modern-minimal",
+  "defaultThemeId": "teal",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-compact",
+      "key": "navbar-compact",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "Alex Morgan",
+        "href": "#content-showcase",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-terminal",
+      "key": "hero-terminal",
+      "content": {
+        "eyebrow": "Alex Morgan",
+        "title": "I build things for the web.",
+        "description": "Frontend engineer working at the intersection of accessible interfaces and thoughtful systems.",
+        "action": "Explore Alex Morgan",
+        "href": "#content-showcase",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-showcase",
+      "key": "content-showcase",
+      "content": {
+        "eyebrow": "Showcase",
+        "title": "A closer look",
+        "href": "#content-showcase",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "features-icon-list",
+      "key": "features-icon-list",
+      "content": {
+        "eyebrow": "Features",
+        "title": "Everything you need. Nothing in your way.",
+        "href": "#content-showcase",
+        "items": [
+          {
+            "title": "Accessible interfaces",
+            "description": "Semantic HTML, keyboard navigation, and a careful eye for readability."
+          },
+          {
+            "title": "Reusable systems",
+            "description": "Typed React components and tokens that make teams faster."
+          },
+          {
+            "title": "Thoughtful performance",
+            "description": "Small bundles, stable layouts, and resilient loading states."
+          },
+          {
+            "title": "Clear collaboration",
+            "description": "Good documentation, practical feedback, and reliable delivery."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-timeline",
+      "key": "content-timeline",
+      "content": {
+        "eyebrow": "Timeline",
+        "title": "A thoughtful process",
+        "href": "#content-showcase",
+        "items": [
+          {
+            "title": "Listen & understand",
+            "description": "We begin with your goals and the context that matters."
+          },
+          {
+            "title": "Explore & create",
+            "description": "We develop thoughtful options and test them together."
+          },
+          {
+            "title": "Deliver & improve",
+            "description": "We bring the work to life and keep learning."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "Contact",
+        "title": "Let's start a conversation",
+        "href": "#content-showcase",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "footer-social",
+      "key": "footer-social",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "Alex Morgan",
+        "href": "#content-showcase",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

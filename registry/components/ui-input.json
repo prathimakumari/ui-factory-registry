@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ui-input",
+  "version": "1.0.0",
+  "kind": "component",
+  "name": "Ui Input",
+  "description": "Input accessible reusable primitive.",
+  "tags": ["component"],
+  "files": ["components/ui/primitives.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "Input",
+  "group": "ui",
+  "responsive": true,
+  "accessible": true
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "navbar-mega",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Navbar Mega",
+  "description": "Mega navbar composition.",
+  "tags": ["section"],
+  "files": ["components/navigation/navbars.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "NavbarSection",
+  "group": "navbar",
+  "variant": "mega",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

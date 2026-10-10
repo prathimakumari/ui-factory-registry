@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "id": "education-school",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Education School",
+  "description": "A welcoming learning community where children discover their strengths and learn with purpose.",
+  "tags": ["industry", "mosaic", "willow-school"],
+  "files": ["registry/templates/education-school.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "industry",
+  "defaultStyleId": "playful-friendly",
+  "defaultThemeId": "sky",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-mega",
+      "key": "navbar-mega",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "Willow School",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-mosaic",
+      "key": "hero-mosaic",
+      "content": {
+        "eyebrow": "Willow School",
+        "title": "Curiosity belongs here.",
+        "description": "A welcoming learning community where children discover their strengths and learn with purpose.",
+        "action": "Explore Willow School",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ],
+        "image": "/images/education.jpg"
+      }
+    },
+    {
+      "id": "content-services",
+      "key": "content-services",
+      "content": {
+        "eyebrow": "Services",
+        "title": "How we can help",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "Early years",
+            "description": "Playful exploration for ages 3–5."
+          },
+          {
+            "title": "Primary school",
+            "description": "Strong foundations for ages 6–11."
+          },
+          {
+            "title": "Beyond the classroom",
+            "description": "Music, nature, sport, and creative discovery."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-events",
+      "key": "content-events",
+      "content": {
+        "eyebrow": "Events",
+        "title": "What's coming up",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "Opening conversations",
+            "description": "Oct 22 · 9:30 AM · Main stage"
+          },
+          {
+            "title": "Ideas into practice",
+            "description": "Oct 22 · 2:00 PM · Studio A"
+          },
+          {
+            "title": "Community gathering",
+            "description": "Oct 23 · 5:30 PM · Courtyard"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-team",
+      "key": "content-team",
+      "content": {
+        "eyebrow": "Team",
+        "title": "Good people. Shared purpose.",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "Morgan Ellis",
+            "description": "Founder & creative director"
+          },
+          {
+            "title": "Jordan Lee",
+            "description": "Strategy & operations"
+          },
+          {
+            "title": "Sam Rivera",
+            "description": "Design & experience"
+          },
+          {
+            "title": "Taylor Reed",
+            "description": "Community & partnerships"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta-split",
+      "key": "cta-split",
+      "content": {
+        "eyebrow": "Cta",
+        "title": "Make your next move",
+        "description": "Explore what is possible. Start with one simple step.",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "LET’S CONNECT",
+        "title": "Start a conversation.",
+        "description": "Tell us a little about what you have in mind.",
+        "items": []
+      }
+    },
+    {
+      "id": "footer-compact",
+      "key": "footer-compact",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "Willow School",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

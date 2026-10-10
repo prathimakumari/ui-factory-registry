@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ui-alert",
+  "version": "1.0.0",
+  "kind": "component",
+  "name": "Ui Alert",
+  "description": "Alert accessible reusable primitive.",
+  "tags": ["component"],
+  "files": ["components/ui/primitives.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "Alert",
+  "group": "ui",
+  "responsive": true,
+  "accessible": true
+}

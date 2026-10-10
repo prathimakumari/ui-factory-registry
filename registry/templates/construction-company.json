@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "id": "construction-company",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Construction Company",
+  "description": "From first drawings to final handover. Commercial construction with care, precision, and accountability.",
+  "tags": ["specialized", "statement", "foundation"],
+  "files": ["registry/templates/construction-company.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "specialized",
+  "defaultStyleId": "industrial",
+  "defaultThemeId": "sunset-orange",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-classic",
+      "key": "navbar-classic",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "FOUNDATION",
+        "href": "#content-gallery",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-statement",
+      "key": "hero-statement",
+      "content": {
+        "eyebrow": "FOUNDATION",
+        "title": "Built on trust.",
+        "description": "From first drawings to final handover. Commercial construction with care, precision, and accountability.",
+        "action": "Explore FOUNDATION",
+        "href": "#content-gallery",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-gallery",
+      "key": "content-gallery",
+      "content": {
+        "eyebrow": "Gallery",
+        "title": "Selected work",
+        "href": "#content-gallery",
+        "items": [
+          {
+            "title": "A quiet retreat",
+            "description": "Architecture · 2026",
+            "image": "/images/architecture.jpg"
+          },
+          {
+            "title": "Between the lines",
+            "description": "Design · 2025",
+            "image": "/images/interior.jpg"
+          },
+          {
+            "title": "New perspectives",
+            "description": "Exploration · 2026",
+            "image": "/images/landscape.jpg"
+          },
+          {
+            "title": "Morning light",
+            "description": "Photography · 2025",
+            "image": "/images/objects.jpg"
+          },
+          {
+            "title": "In good company",
+            "description": "Community · 2026",
+            "image": "/images/city.jpg"
+          },
+          {
+            "title": "The everyday",
+            "description": "Objects · 2026",
+            "image": "/images/coast.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-services",
+      "key": "content-services",
+      "content": {
+        "eyebrow": "Services",
+        "title": "How we can help",
+        "href": "#content-gallery",
+        "items": [
+          {
+            "title": "Commercial construction",
+            "description": "Workplaces designed for the next generation."
+          },
+          {
+            "title": "Renovation & fit-out",
+            "description": "New possibilities for existing spaces."
+          },
+          {
+            "title": "Project management",
+            "description": "Clear milestones, budgets, and communication."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-timeline",
+      "key": "content-timeline",
+      "content": {
+        "eyebrow": "Timeline",
+        "title": "A thoughtful process",
+        "href": "#content-gallery",
+        "items": [
+          {
+            "title": "Listen & understand",
+            "description": "We begin with your goals and the context that matters."
+          },
+          {
+            "title": "Explore & create",
+            "description": "We develop thoughtful options and test them together."
+          },
+          {
+            "title": "Deliver & improve",
+            "description": "We bring the work to life and keep learning."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-metrics",
+      "key": "content-metrics",
+      "content": {
+        "eyebrow": "Metrics",
+        "title": "A little progress, every day",
+        "href": "#content-gallery",
+        "items": [
+          {
+            "title": "Active members",
+            "description": "12,480",
+            "value": "12,480"
+          },
+          {
+            "title": "Satisfaction",
+            "description": "98%",
+            "value": "98%"
+          },
+          {
+            "title": "Years of experience",
+            "description": "12",
+            "value": "12"
+          },
+          {
+            "title": "Community projects",
+            "description": "240",
+            "value": "240"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "Contact",
+        "title": "Let's start a conversation",
+        "href": "#content-gallery",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "footer-split",
+      "key": "footer-split",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "FOUNDATION",
+        "href": "#content-gallery",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

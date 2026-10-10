@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "futuristic",
+  "version": "1.0.0",
+  "kind": "motion",
+  "name": "Futuristic",
+  "description": "Futuristic configurable motion; disabled for reduced motion.",
+  "tags": ["motion"],
+  "files": ["components/motion/primitives.tsx", "components/motion/patterns.tsx", "lib/motion.ts"],
+  "dependencies": ["motion", "react", "zod"],
+  "duration": 0.32,
+  "ease": [0.22, 1, 0.36, 1],
+  "distance": 14,
+  "scale": 0.96,
+  "stagger": 0.035,
+  "spring": null,
+  "hover": 1.025,
+  "scroll": false,
+  "pattern": "scale",
+  "reducedMotion": "disable"
+}

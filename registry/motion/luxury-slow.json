@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "luxury-slow",
+  "version": "1.0.0",
+  "kind": "motion",
+  "name": "Luxury Slow",
+  "description": "Luxury Slow configurable motion; disabled for reduced motion.",
+  "tags": ["motion"],
+  "files": ["components/motion/primitives.tsx", "components/motion/patterns.tsx", "lib/motion.ts"],
+  "dependencies": ["motion", "react", "zod"],
+  "duration": 1.1,
+  "ease": [0.22, 1, 0.36, 1],
+  "distance": 10,
+  "scale": 1,
+  "stagger": 0.18,
+  "spring": null,
+  "hover": 1.008,
+  "scroll": true,
+  "pattern": "fade",
+  "reducedMotion": "disable"
+}

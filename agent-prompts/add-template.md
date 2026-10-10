@@ -1,0 +1,1 @@
+Read AGENTS.md and docs/adding-templates.md. Search existing compositions before adding one. Create a genuinely distinct hierarchy using registered sections. Add only missing reusable behavior, define a versioned manifest, update the generated catalog, validate all references, test default and overridden configurations, and inspect desktop/mobile/dark/reduced-motion previews.

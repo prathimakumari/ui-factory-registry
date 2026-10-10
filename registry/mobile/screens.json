@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "screens": [
+    {
+      "id": "mobile-onboarding",
+      "kind": "onboarding",
+      "name": "Welcome & onboarding",
+      "description": "Three-step product introduction with skip and next actions.",
+      "version": "1.0.0",
+      "tags": ["onboarding", "welcome"],
+      "defaultStyle": "playful-friendly",
+      "defaultTheme": "royal-purple",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-sign-in",
+      "kind": "sign-in",
+      "name": "Sign in",
+      "description": "Email and password form with local validation and a demo session.",
+      "version": "1.0.0",
+      "tags": ["auth", "form"],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "ocean-blue",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-home",
+      "kind": "home",
+      "name": "Daily dashboard",
+      "description": "Personal overview, habit progress and quick navigation.",
+      "version": "1.0.0",
+      "tags": ["dashboard", "home"],
+      "defaultStyle": "soft-ui",
+      "defaultTheme": "emerald",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-search",
+      "kind": "search",
+      "name": "Explore & search",
+      "description": "Searchable product collection with category filters and an empty state.",
+      "version": "1.0.0",
+      "tags": ["commerce", "search"],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "warm-sand",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-product",
+      "kind": "product",
+      "name": "Product details",
+      "description": "Product story, selectable finish and add-to-bag action.",
+      "version": "1.0.0",
+      "tags": ["commerce", "details"],
+      "defaultStyle": "luxury-premium",
+      "defaultTheme": "coffee",
+      "defaultMotion": "premium-smooth"
+    },
+    {
+      "id": "mobile-cart",
+      "kind": "cart",
+      "name": "Shopping bag",
+      "description": "Editable quantities, totals and an empty-bag state.",
+      "version": "1.0.0",
+      "tags": ["commerce", "cart"],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "warm-sand",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-checkout",
+      "kind": "checkout",
+      "name": "Checkout review",
+      "description": "Delivery details, order review and a local order confirmation without payments.",
+      "version": "1.0.0",
+      "tags": ["commerce", "form"],
+      "defaultStyle": "corporate-enterprise",
+      "defaultTheme": "ocean-blue",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-activity",
+      "kind": "activity",
+      "name": "Activity & notifications",
+      "description": "Filterable timeline with unread state and mark-all-read action.",
+      "version": "1.0.0",
+      "tags": ["notifications", "activity"],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "indigo",
+      "defaultMotion": "dashboard-fast"
+    },
+    {
+      "id": "mobile-messages",
+      "kind": "messages",
+      "name": "Conversation",
+      "description": "Scrollable conversation with a working local message composer.",
+      "version": "1.0.0",
+      "tags": ["chat", "messages"],
+      "defaultStyle": "warm-human",
+      "defaultTheme": "teal",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-booking",
+      "kind": "booking",
+      "name": "Book a session",
+      "description": "Service, day and time selection with a local confirmation.",
+      "version": "1.0.0",
+      "tags": ["booking", "calendar"],
+      "defaultStyle": "organic-natural",
+      "defaultTheme": "forest",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-profile",
+      "kind": "profile",
+      "name": "Profile & account",
+      "description": "Editable name, account overview and navigation to preferences.",
+      "version": "1.0.0",
+      "tags": ["profile", "account"],
+      "defaultStyle": "soft-ui",
+      "defaultTheme": "lavender",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-settings",
+      "kind": "settings",
+      "name": "Preferences",
+      "description": "Theme mode, local notification preference and reset confirmation.",
+      "version": "1.0.0",
+      "tags": ["settings", "preferences"],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "slate-neutral",
+      "defaultMotion": "no-motion"
+    }
+  ],
+  "files": {
+    "web": "components/mobile/experience.tsx",
+    "native": "mobile/src/experience.tsx",
+    "sharedData": "registry/mobile/data.json"
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "id": "ecommerce-marketplace",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Ecommerce Marketplace",
+  "description": "Independent makers. Exceptional finds. One thoughtfully curated marketplace.",
+  "tags": ["content-commerce", "search", "common-market"],
+  "files": ["registry/templates/ecommerce-marketplace.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "content-commerce",
+  "defaultStyleId": "bento-modern",
+  "defaultThemeId": "emerald",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-mega",
+      "key": "navbar-mega",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "Common Market",
+        "href": "#content-products",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-search",
+      "key": "hero-search",
+      "content": {
+        "eyebrow": "Common Market",
+        "title": "Discover your next favorite.",
+        "description": "Independent makers. Exceptional finds. One thoughtfully curated marketplace.",
+        "action": "Explore Common Market",
+        "href": "#content-products",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-products",
+      "key": "content-products",
+      "content": {
+        "eyebrow": "Products",
+        "title": "The considered collection",
+        "href": "#content-products",
+        "items": [
+          {
+            "title": "Studio Chair",
+            "description": "Solid oak · Natural finish",
+            "price": 249,
+            "category": "Featured",
+            "image": "/images/interior.jpg"
+          },
+          {
+            "title": "Arc Table Lamp",
+            "description": "Warm light · Brushed steel",
+            "price": 129,
+            "category": "Essentials",
+            "image": "/images/objects.jpg"
+          },
+          {
+            "title": "Everyday Tote",
+            "description": "Organic cotton · Sand",
+            "price": 48,
+            "category": "Featured",
+            "image": "/images/objects.jpg"
+          },
+          {
+            "title": "Form Ceramic Set",
+            "description": "Hand-finished · Set of two",
+            "price": 64,
+            "category": "Essentials",
+            "image": "/images/objects.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "features-grid",
+      "key": "features-grid",
+      "content": {
+        "eyebrow": "Features",
+        "title": "Everything you need. Nothing in your way.",
+        "href": "#content-products",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-products",
+      "key": "content-products-4",
+      "content": {
+        "eyebrow": "Products",
+        "title": "The considered collection",
+        "href": "#content-products",
+        "items": [
+          {
+            "title": "Studio Chair",
+            "description": "Solid oak · Natural finish",
+            "price": 249,
+            "category": "Featured",
+            "image": "/images/interior.jpg"
+          },
+          {
+            "title": "Arc Table Lamp",
+            "description": "Warm light · Brushed steel",
+            "price": 129,
+            "category": "Essentials",
+            "image": "/images/objects.jpg"
+          },
+          {
+            "title": "Everyday Tote",
+            "description": "Organic cotton · Sand",
+            "price": 48,
+            "category": "Featured",
+            "image": "/images/objects.jpg"
+          },
+          {
+            "title": "Form Ceramic Set",
+            "description": "Hand-finished · Set of two",
+            "price": 64,
+            "category": "Essentials",
+            "image": "/images/objects.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "testimonials-rating",
+      "key": "testimonials-rating",
+      "content": {
+        "eyebrow": "Testimonials",
+        "title": "In good company",
+        "href": "#content-products",
+        "items": [
+          {
+            "title": "Thoughtful from the first detail.",
+            "description": "We found the clarity we had been looking for. The whole experience felt considered and easy. — Jamie Parker, Studio North"
+          },
+          {
+            "title": "A real difference in our day.",
+            "description": "Our team spends less time coordinating and more time doing work we care about. — Alex Kim, Forma"
+          },
+          {
+            "title": "Simple in the best way.",
+            "description": "It does what we need beautifully, without getting in the way. — Morgan Reed, Fieldwork"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "LET’S CONNECT",
+        "title": "Start a conversation.",
+        "description": "Tell us a little about what you have in mind.",
+        "items": []
+      }
+    },
+    {
+      "id": "footer-social",
+      "key": "footer-social",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "Common Market",
+        "href": "#content-products",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "id": "music-artist",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Music Artist",
+  "description": "The new album. Ten stories about the spaces between where we are and where we want to be.",
+  "tags": ["specialized", "immersive", "luna-vale"],
+  "files": ["registry/templates/music-artist.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "specialized",
+  "defaultStyleId": "dark-cinematic",
+  "defaultThemeId": "royal-purple",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "dark",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-transparent",
+      "key": "navbar-transparent",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "LUNA VALE",
+        "href": "#content-tracks",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-immersive",
+      "key": "hero-immersive",
+      "content": {
+        "eyebrow": "LUNA VALE",
+        "title": "After the quiet",
+        "description": "The new album. Ten stories about the spaces between where we are and where we want to be.",
+        "action": "Explore LUNA VALE",
+        "href": "#content-tracks",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ],
+        "image": "/images/music.jpg"
+      }
+    },
+    {
+      "id": "content-tracks",
+      "key": "content-tracks",
+      "content": {
+        "eyebrow": "Tracks",
+        "title": "The tracklist",
+        "href": "#content-tracks",
+        "items": [
+          {
+            "title": "After the Quiet",
+            "description": "4:12 · Opening track"
+          },
+          {
+            "title": "City in Blue",
+            "description": "3:46 · Single"
+          },
+          {
+            "title": "Somewhere Between",
+            "description": "5:08 · Acoustic"
+          },
+          {
+            "title": "Coming Home",
+            "description": "4:32 · Closing track"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-events",
+      "key": "content-events",
+      "content": {
+        "eyebrow": "Events",
+        "title": "What's coming up",
+        "href": "#content-tracks",
+        "items": [
+          {
+            "title": "Opening conversations",
+            "description": "Oct 22 · 9:30 AM · Main stage"
+          },
+          {
+            "title": "Ideas into practice",
+            "description": "Oct 22 · 2:00 PM · Studio A"
+          },
+          {
+            "title": "Community gathering",
+            "description": "Oct 23 · 5:30 PM · Courtyard"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-gallery",
+      "key": "content-gallery",
+      "content": {
+        "eyebrow": "Gallery",
+        "title": "Selected work",
+        "href": "#content-tracks",
+        "items": [
+          {
+            "title": "A quiet retreat",
+            "description": "Architecture · 2026",
+            "image": "/images/architecture.jpg"
+          },
+          {
+            "title": "Between the lines",
+            "description": "Design · 2025",
+            "image": "/images/interior.jpg"
+          },
+          {
+            "title": "New perspectives",
+            "description": "Exploration · 2026",
+            "image": "/images/landscape.jpg"
+          },
+          {
+            "title": "Morning light",
+            "description": "Photography · 2025",
+            "image": "/images/objects.jpg"
+          },
+          {
+            "title": "In good company",
+            "description": "Community · 2026",
+            "image": "/images/city.jpg"
+          },
+          {
+            "title": "The everyday",
+            "description": "Objects · 2026",
+            "image": "/images/coast.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta-newsletter",
+      "key": "cta-newsletter",
+      "content": {
+        "eyebrow": "Cta",
+        "title": "Make your next move",
+        "description": "Explore what is possible. Start with one simple step.",
+        "href": "#content-tracks",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "LET’S CONNECT",
+        "title": "Start a conversation.",
+        "description": "Tell us a little about what you have in mind.",
+        "items": []
+      }
+    },
+    {
+      "id": "footer-minimal",
+      "key": "footer-minimal",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "LUNA VALE",
+        "href": "#content-tracks",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

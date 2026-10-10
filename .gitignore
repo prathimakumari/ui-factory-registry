@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+exports/
+test-results/
+playwright-report/
+mobile/.expo/
+mobile/dist/
+mobile/dist-native/
+native-test-results/
+*.tsbuildinfo
+.env*
+!.env.example

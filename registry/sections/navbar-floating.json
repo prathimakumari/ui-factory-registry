@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "navbar-floating",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Navbar Floating",
+  "description": "Floating navbar composition.",
+  "tags": ["section"],
+  "files": ["components/navigation/navbars.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "NavbarSection",
+  "group": "navbar",
+  "variant": "floating",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "id": "consulting-firm",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Consulting Firm",
+  "description": "We help leaders navigate change with research, rigorous strategy, and practical execution.",
+  "tags": ["industry", "editorial", "meridian"],
+  "files": ["registry/templates/consulting-firm.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "industry",
+  "defaultStyleId": "swiss-grid",
+  "defaultThemeId": "enterprise-neutral",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-classic",
+      "key": "navbar-classic",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "Meridian",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-editorial",
+      "key": "hero-editorial",
+      "content": {
+        "eyebrow": "Meridian",
+        "title": "Better questions. Stronger decisions.",
+        "description": "We help leaders navigate change with research, rigorous strategy, and practical execution.",
+        "action": "Explore Meridian",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-services",
+      "key": "content-services",
+      "content": {
+        "eyebrow": "Services",
+        "title": "How we can help",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "Strategy & planning",
+            "description": "Clear goals, informed decisions, and a practical path forward."
+          },
+          {
+            "title": "Personal guidance",
+            "description": "A dedicated specialist who takes time to understand your needs."
+          },
+          {
+            "title": "Ongoing support",
+            "description": "Reliable help at every stage of your journey."
+          }
+        ]
+      }
+    },
+    {
+      "id": "features-timeline",
+      "key": "features-timeline",
+      "content": {
+        "eyebrow": "Features",
+        "title": "Everything you need. Nothing in your way.",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-articles",
+      "key": "content-articles",
+      "content": {
+        "eyebrow": "Articles",
+        "title": "From the journal",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "The value of paying attention",
+            "description": "A closer look at the small details that shape our days."
+          },
+          {
+            "title": "Making space for better ideas",
+            "description": "Why thoughtful constraints can open new possibilities."
+          },
+          {
+            "title": "In conversation with the makers",
+            "description": "Meet the people building a more considered future."
+          },
+          {
+            "title": "A different kind of progress",
+            "description": "Measuring what matters, one step at a time."
+          }
+        ]
+      }
+    },
+    {
+      "id": "testimonials-editorial",
+      "key": "testimonials-editorial",
+      "content": {
+        "eyebrow": "Testimonials",
+        "title": "In good company",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "Thoughtful from the first detail.",
+            "description": "We found the clarity we had been looking for. The whole experience felt considered and easy. — Jamie Parker, Studio North"
+          },
+          {
+            "title": "A real difference in our day.",
+            "description": "Our team spends less time coordinating and more time doing work we care about. — Alex Kim, Forma"
+          },
+          {
+            "title": "Simple in the best way.",
+            "description": "It does what we need beautifully, without getting in the way. — Morgan Reed, Fieldwork"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "Contact",
+        "title": "Let's start a conversation",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "footer-minimal",
+      "key": "footer-minimal",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "Meridian",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

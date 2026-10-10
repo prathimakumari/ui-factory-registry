@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "id": "fitness-gym",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Fitness Gym",
+  "description": "Expert coaching, a welcoming community, and training that meets you where you are.",
+  "tags": ["industry", "statement", "rep-/-club"],
+  "files": ["registry/templates/fitness-gym.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "industry",
+  "defaultStyleId": "industrial",
+  "defaultThemeId": "citrus",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-compact",
+      "key": "navbar-compact",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "REP / CLUB",
+        "href": "#content-schedule",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-statement",
+      "key": "hero-statement",
+      "content": {
+        "eyebrow": "REP / CLUB",
+        "title": "Show up. Get stronger.",
+        "description": "Expert coaching, a welcoming community, and training that meets you where you are.",
+        "action": "Explore REP / CLUB",
+        "href": "#content-schedule",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-schedule",
+      "key": "content-schedule",
+      "content": {
+        "eyebrow": "Schedule",
+        "title": "Find your next session",
+        "href": "#content-schedule",
+        "items": [
+          {
+            "title": "Strength foundations",
+            "description": "Monday · 7:00 AM · Coach Jess"
+          },
+          {
+            "title": "HIIT club",
+            "description": "Wednesday · 6:00 PM · Coach Marcus"
+          },
+          {
+            "title": "Restore & reset",
+            "description": "Saturday · 9:00 AM · Coach Aisha"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-team",
+      "key": "content-team",
+      "content": {
+        "eyebrow": "Team",
+        "title": "Good people. Shared purpose.",
+        "href": "#content-schedule",
+        "items": [
+          {
+            "title": "Jess Harper",
+            "description": "Strength & conditioning"
+          },
+          {
+            "title": "Marcus Cole",
+            "description": "Functional fitness"
+          },
+          {
+            "title": "Aisha Khan",
+            "description": "Mobility & recovery"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pricing-toggle",
+      "key": "pricing-toggle",
+      "content": {
+        "eyebrow": "Pricing",
+        "title": "Choose what works for you",
+        "href": "#content-schedule",
+        "items": [
+          {
+            "title": "Starter",
+            "description": "For individuals getting started"
+          },
+          {
+            "title": "Team",
+            "description": "For growing teams doing more"
+          },
+          {
+            "title": "Scale",
+            "description": "For organizations with bigger ambitions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-metrics",
+      "key": "content-metrics",
+      "content": {
+        "eyebrow": "Metrics",
+        "title": "A little progress, every day",
+        "href": "#content-schedule",
+        "items": [
+          {
+            "title": "Active members",
+            "description": "12,480",
+            "value": "12,480"
+          },
+          {
+            "title": "Satisfaction",
+            "description": "98%",
+            "value": "98%"
+          },
+          {
+            "title": "Years of experience",
+            "description": "12",
+            "value": "12"
+          },
+          {
+            "title": "Community projects",
+            "description": "240",
+            "value": "240"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta-banner",
+      "key": "cta-banner",
+      "content": {
+        "eyebrow": "Cta",
+        "title": "Make your next move",
+        "description": "Explore what is possible. Start with one simple step.",
+        "href": "#content-schedule",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "LET’S CONNECT",
+        "title": "Start a conversation.",
+        "description": "Tell us a little about what you have in mind.",
+        "items": []
+      }
+    },
+    {
+      "id": "footer-social",
+      "key": "footer-social",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "REP / CLUB",
+        "href": "#content-schedule",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "ui-status-orb",
+  "version": "1.0.0",
+  "kind": "component",
+  "name": "Ui Status Orb",
+  "description": "Scalable status indicator with five semantic states, configurable speed, pause, and accessible status text.",
+  "tags": ["effect", "orb", "loading"],
+  "files": ["components/ui/effects.tsx", "styles/effects.css"],
+  "dependencies": ["react", "class-variance-authority", "clsx", "radix-ui", "tailwind-merge"],
+  "exportName": "StatusOrb",
+  "group": "ui",
+  "responsive": true,
+  "accessible": true
+}

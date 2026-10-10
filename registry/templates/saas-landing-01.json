@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "id": "saas-landing-01",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Saas Landing 01",
+  "description": "A calm workspace for ambitious teams. Plan projects, share decisions, and make progress visible.",
+  "tags": ["marketing", "split", "orbit"],
+  "files": ["registry/templates/saas-landing-01.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "marketing",
+  "defaultStyleId": "modern-minimal",
+  "defaultThemeId": "ocean-blue",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-floating",
+      "key": "navbar-floating",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "Orbit",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-split",
+      "key": "hero-split",
+      "content": {
+        "eyebrow": "Orbit",
+        "title": "Your best work. All together.",
+        "description": "A calm workspace for ambitious teams. Plan projects, share decisions, and make progress visible.",
+        "action": "Explore Orbit",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "features-bento",
+      "key": "features-bento",
+      "content": {
+        "eyebrow": "Features",
+        "title": "Everything you need. Nothing in your way.",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "One place for the whole project",
+            "description": "Tasks, decisions, and files stay connected, from kickoff to launch."
+          },
+          {
+            "title": "A clear view of progress",
+            "description": "See what is moving, what is blocked, and where your team needs support."
+          },
+          {
+            "title": "Less checking in",
+            "description": "Share concise updates that keep everyone informed without another meeting."
+          },
+          {
+            "title": "Built for your workflow",
+            "description": "Start with a simple board, then add the views your team needs."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-metrics",
+      "key": "content-metrics",
+      "content": {
+        "eyebrow": "Metrics",
+        "title": "A little progress, every day",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "Active members",
+            "description": "12,480",
+            "value": "12,480"
+          },
+          {
+            "title": "Satisfaction",
+            "description": "98%",
+            "value": "98%"
+          },
+          {
+            "title": "Years of experience",
+            "description": "12",
+            "value": "12"
+          },
+          {
+            "title": "Community projects",
+            "description": "240",
+            "value": "240"
+          }
+        ]
+      }
+    },
+    {
+      "id": "testimonials-grid",
+      "key": "testimonials-grid",
+      "content": {
+        "eyebrow": "Testimonials",
+        "title": "In good company",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "Thoughtful from the first detail.",
+            "description": "We found the clarity we had been looking for. The whole experience felt considered and easy. — Jamie Parker, Studio North"
+          },
+          {
+            "title": "A real difference in our day.",
+            "description": "Our team spends less time coordinating and more time doing work we care about. — Alex Kim, Forma"
+          },
+          {
+            "title": "Simple in the best way.",
+            "description": "It does what we need beautifully, without getting in the way. — Morgan Reed, Fieldwork"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pricing-three-tier",
+      "key": "pricing-three-tier",
+      "content": {
+        "eyebrow": "Pricing",
+        "title": "Choose what works for you",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "Starter",
+            "description": "For individuals getting started"
+          },
+          {
+            "title": "Team",
+            "description": "For growing teams doing more"
+          },
+          {
+            "title": "Scale",
+            "description": "For organizations with bigger ambitions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq-split",
+      "key": "faq-split",
+      "content": {
+        "eyebrow": "Faq",
+        "title": "A few things you might be wondering",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "How do I get started?",
+            "description": "Choose the option that suits you and follow the guided steps. You can explore the demo before making a decision."
+          },
+          {
+            "title": "Can I change my selection later?",
+            "description": "Yes. Your needs can change, and the experience is designed to grow with you."
+          },
+          {
+            "title": "Is support available?",
+            "description": "The sample support form demonstrates the flow locally. Connect your own support service for production."
+          },
+          {
+            "title": "What is included?",
+            "description": "All listed features are included in the selected option. Review the comparison for details."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "LET’S CONNECT",
+        "title": "Start a conversation.",
+        "description": "Tell us a little about what you have in mind.",
+        "items": []
+      }
+    },
+    {
+      "id": "footer-mega",
+      "key": "footer-mega",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "Orbit",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

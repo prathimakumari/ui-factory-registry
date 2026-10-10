@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "features-alternating",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Features Alternating",
+  "description": "Alternating features composition.",
+  "tags": ["section"],
+  "files": ["components/sections/features.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "FeaturesSection",
+  "group": "features",
+  "variant": "alternating",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

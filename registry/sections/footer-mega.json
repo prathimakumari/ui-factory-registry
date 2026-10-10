@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "footer-mega",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Footer Mega",
+  "description": "Mega footer composition.",
+  "tags": ["section"],
+  "files": ["components/sections/footer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "FooterSection",
+  "group": "footer",
+  "variant": "mega",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

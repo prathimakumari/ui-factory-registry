@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "id": "restaurant-landing",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Restaurant Landing",
+  "description": "Seasonal ingredients, an open fire, and a warm welcome. Modern Mediterranean cooking in the heart of the city.",
+  "tags": ["content-commerce", "immersive", "olive-&-ember"],
+  "files": ["registry/templates/restaurant-landing.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "content-commerce",
+  "defaultStyleId": "organic-natural",
+  "defaultThemeId": "forest",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-transparent",
+      "key": "navbar-transparent",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "OLIVE & EMBER",
+        "href": "#content-menu",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-immersive",
+      "key": "hero-immersive",
+      "content": {
+        "eyebrow": "OLIVE & EMBER",
+        "title": "A seat at our table.",
+        "description": "Seasonal ingredients, an open fire, and a warm welcome. Modern Mediterranean cooking in the heart of the city.",
+        "action": "Reserve a table",
+        "href": "#content-menu",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ],
+        "image": "/images/restaurant.jpg"
+      }
+    },
+    {
+      "id": "content-menu",
+      "key": "content-menu",
+      "content": {
+        "eyebrow": "Menu",
+        "title": "Fresh from our kitchen",
+        "href": "#content-menu",
+        "items": [
+          {
+            "title": "Charred aubergine",
+            "description": "Tahini, pomegranate, fresh herbs"
+          },
+          {
+            "title": "Market tomato salad",
+            "description": "Basil, aged balsamic, sourdough"
+          },
+          {
+            "title": "Wood-fired sea bass",
+            "description": "Lemon, capers, seasonal greens"
+          },
+          {
+            "title": "Olive oil cake",
+            "description": "Citrus cream, pistachio"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-booking",
+      "key": "content-booking",
+      "content": {
+        "eyebrow": "Booking",
+        "title": "Make a little time for yourself",
+        "href": "#content-menu",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-gallery",
+      "key": "content-gallery",
+      "content": {
+        "eyebrow": "Gallery",
+        "title": "Selected work",
+        "href": "#content-menu",
+        "items": [
+          {
+            "title": "A quiet retreat",
+            "description": "Architecture · 2026",
+            "image": "/images/food.jpg"
+          },
+          {
+            "title": "Between the lines",
+            "description": "Design · 2025",
+            "image": "/images/restaurant.jpg"
+          },
+          {
+            "title": "New perspectives",
+            "description": "Exploration · 2026",
+            "image": "/images/food.jpg"
+          },
+          {
+            "title": "Morning light",
+            "description": "Photography · 2025",
+            "image": "/images/restaurant.jpg"
+          },
+          {
+            "title": "In good company",
+            "description": "Community · 2026",
+            "image": "/images/food.jpg"
+          },
+          {
+            "title": "The everyday",
+            "description": "Objects · 2026",
+            "image": "/images/restaurant.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "Contact",
+        "title": "Let's start a conversation",
+        "href": "#content-menu",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "footer-mega",
+      "key": "footer-mega",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "OLIVE & EMBER",
+        "href": "#content-menu",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "UI Factory Mobile",
+    "slug": "ui-factory-mobile",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "ios": { "supportsTablet": true },
+    "web": { "bundler": "metro", "output": "single" }
+  }
+}

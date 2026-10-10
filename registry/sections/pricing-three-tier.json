@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "pricing-three-tier",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Pricing Three Tier",
+  "description": "Three Tier pricing composition.",
+  "tags": ["section"],
+  "files": ["components/sections/pricing.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "PricingSection",
+  "group": "pricing",
+  "variant": "three-tier",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "shell-dual",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Shell Dual",
+  "description": "Dual shell composition.",
+  "tags": ["section"],
+  "files": ["components/dashboards/shells.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "ShellSection",
+  "group": "shell",
+  "variant": "dual",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

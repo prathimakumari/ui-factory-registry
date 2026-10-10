@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "id": "fintech-landing",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Fintech Landing",
+  "description": "Spend, save, and plan in one place. Simple tools for everyday financial confidence.",
+  "tags": ["industry", "product", "tempo"],
+  "files": ["registry/templates/fintech-landing.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "industry",
+  "defaultStyleId": "gradient-tech",
+  "defaultThemeId": "indigo",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-floating",
+      "key": "navbar-floating",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "Tempo",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-product",
+      "key": "hero-product",
+      "content": {
+        "eyebrow": "Tempo",
+        "title": "A clearer view of your money.",
+        "description": "Spend, save, and plan in one place. Simple tools for everyday financial confidence.",
+        "action": "Explore Tempo",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "features-bento",
+      "key": "features-bento",
+      "content": {
+        "eyebrow": "Features",
+        "title": "Everything you need. Nothing in your way.",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "Know where it goes",
+            "description": "See everyday spending organized into useful categories."
+          },
+          {
+            "title": "Save with intention",
+            "description": "Set a goal, track your progress, and celebrate small wins."
+          },
+          {
+            "title": "Plan ahead",
+            "description": "Understand upcoming bills and leave room for the unexpected."
+          },
+          {
+            "title": "Stay in control",
+            "description": "Review activity and choose the notifications that help you."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-comparison",
+      "key": "content-comparison",
+      "content": {
+        "eyebrow": "Comparison",
+        "title": "The details make the difference",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-metrics",
+      "key": "content-metrics",
+      "content": {
+        "eyebrow": "Metrics",
+        "title": "A little progress, every day",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "Active members",
+            "description": "12,480",
+            "value": "12,480"
+          },
+          {
+            "title": "Satisfaction",
+            "description": "98%",
+            "value": "98%"
+          },
+          {
+            "title": "Years of experience",
+            "description": "12",
+            "value": "12"
+          },
+          {
+            "title": "Community projects",
+            "description": "240",
+            "value": "240"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pricing-horizontal",
+      "key": "pricing-horizontal",
+      "content": {
+        "eyebrow": "Pricing",
+        "title": "Choose what works for you",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "Starter",
+            "description": "For individuals getting started"
+          },
+          {
+            "title": "Team",
+            "description": "For growing teams doing more"
+          },
+          {
+            "title": "Scale",
+            "description": "For organizations with bigger ambitions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq-split",
+      "key": "faq-split",
+      "content": {
+        "eyebrow": "Faq",
+        "title": "A few things you might be wondering",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "How do I get started?",
+            "description": "Choose the option that suits you and follow the guided steps. You can explore the demo before making a decision."
+          },
+          {
+            "title": "Can I change my selection later?",
+            "description": "Yes. Your needs can change, and the experience is designed to grow with you."
+          },
+          {
+            "title": "Is support available?",
+            "description": "The sample support form demonstrates the flow locally. Connect your own support service for production."
+          },
+          {
+            "title": "What is included?",
+            "description": "All listed features are included in the selected option. Review the comparison for details."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "LET’S CONNECT",
+        "title": "Start a conversation.",
+        "description": "Tell us a little about what you have in mind.",
+        "items": []
+      }
+    },
+    {
+      "id": "footer-editorial",
+      "key": "footer-editorial",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "Tempo",
+        "href": "#features-bento",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

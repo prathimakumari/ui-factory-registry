@@ -1,0 +1,7040 @@
+{
+  "schemaVersion": 1,
+  "mobileScreens": [
+    {
+      "id": "mobile-onboarding",
+      "kind": "onboarding",
+      "name": "Welcome & onboarding",
+      "description": "Three-step product introduction with skip and next actions.",
+      "version": "1.0.0",
+      "tags": [
+        "onboarding",
+        "welcome"
+      ],
+      "defaultStyle": "playful-friendly",
+      "defaultTheme": "royal-purple",
+      "defaultMotion": "subtle",
+      "manifest": "registry/mobile/screens.json",
+      "files": {
+        "web": "components/mobile/experience.tsx",
+        "native": "mobile/src/experience.tsx",
+        "sharedData": "registry/mobile/data.json"
+      },
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ]
+    },
+    {
+      "id": "mobile-sign-in",
+      "kind": "sign-in",
+      "name": "Sign in",
+      "description": "Email and password form with local validation and a demo session.",
+      "version": "1.0.0",
+      "tags": [
+        "auth",
+        "form"
+      ],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "ocean-blue",
+      "defaultMotion": "subtle",
+      "manifest": "registry/mobile/screens.json",
+      "files": {
+        "web": "components/mobile/experience.tsx",
+        "native": "mobile/src/experience.tsx",
+        "sharedData": "registry/mobile/data.json"
+      },
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ]
+    },
+    {
+      "id": "mobile-home",
+      "kind": "home",
+      "name": "Daily dashboard",
+      "description": "Personal overview, habit progress and quick navigation.",
+      "version": "1.0.0",
+      "tags": [
+        "dashboard",
+        "home"
+      ],
+      "defaultStyle": "soft-ui",
+      "defaultTheme": "emerald",
+      "defaultMotion": "subtle",
+      "manifest": "registry/mobile/screens.json",
+      "files": {
+        "web": "components/mobile/experience.tsx",
+        "native": "mobile/src/experience.tsx",
+        "sharedData": "registry/mobile/data.json"
+      },
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ]
+    },
+    {
+      "id": "mobile-search",
+      "kind": "search",
+      "name": "Explore & search",
+      "description": "Searchable product collection with category filters and an empty state.",
+      "version": "1.0.0",
+      "tags": [
+        "commerce",
+        "search"
+      ],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "warm-sand",
+      "defaultMotion": "subtle",
+      "manifest": "registry/mobile/screens.json",
+      "files": {
+        "web": "components/mobile/experience.tsx",
+        "native": "mobile/src/experience.tsx",
+        "sharedData": "registry/mobile/data.json"
+      },
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ]
+    },
+    {
+      "id": "mobile-product",
+      "kind": "product",
+      "name": "Product details",
+      "description": "Product story, selectable finish and add-to-bag action.",
+      "version": "1.0.0",
+      "tags": [
+        "commerce",
+        "details"
+      ],
+      "defaultStyle": "luxury-premium",
+      "defaultTheme": "coffee",
+      "defaultMotion": "premium-smooth",
+      "manifest": "registry/mobile/screens.json",
+      "files": {
+        "web": "components/mobile/experience.tsx",
+        "native": "mobile/src/experience.tsx",
+        "sharedData": "registry/mobile/data.json"
+      },
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ]
+    },
+    {
+      "id": "mobile-cart",
+      "kind": "cart",
+      "name": "Shopping bag",
+      "description": "Editable quantities, totals and an empty-bag state.",
+      "version": "1.0.0",
+      "tags": [
+        "commerce",
+        "cart"
+      ],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "warm-sand",
+      "defaultMotion": "subtle",
+      "manifest": "registry/mobile/screens.json",
+      "files": {
+        "web": "components/mobile/experience.tsx",
+        "native": "mobile/src/experience.tsx",
+        "sharedData": "registry/mobile/data.json"
+      },
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ]
+    },
+    {
+      "id": "mobile-checkout",
+      "kind": "checkout",
+      "name": "Checkout review",
+      "description": "Delivery details, order review and a local order confirmation without payments.",
+      "version": "1.0.0",
+      "tags": [
+        "commerce",
+        "form"
+      ],
+      "defaultStyle": "corporate-enterprise",
+      "defaultTheme": "ocean-blue",
+      "defaultMotion": "subtle",
+      "manifest": "registry/mobile/screens.json",
+      "files": {
+        "web": "components/mobile/experience.tsx",
+        "native": "mobile/src/experience.tsx",
+        "sharedData": "registry/mobile/data.json"
+      },
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ]
+    },
+    {
+      "id": "mobile-activity",
+      "kind": "activity",
+      "name": "Activity & notifications",
+      "description": "Filterable timeline with unread state and mark-all-read action.",
+      "version": "1.0.0",
+      "tags": [
+        "notifications",
+        "activity"
+      ],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "indigo",
+      "defaultMotion": "dashboard-fast",
+      "manifest": "registry/mobile/screens.json",
+      "files": {
+        "web": "components/mobile/experience.tsx",
+        "native": "mobile/src/experience.tsx",
+        "sharedData": "registry/mobile/data.json"
+      },
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ]
+    },
+    {
+      "id": "mobile-messages",
+      "kind": "messages",
+      "name": "Conversation",
+      "description": "Scrollable conversation with a working local message composer.",
+      "version": "1.0.0",
+      "tags": [
+        "chat",
+        "messages"
+      ],
+      "defaultStyle": "warm-human",
+      "defaultTheme": "teal",
+      "defaultMotion": "subtle",
+      "manifest": "registry/mobile/screens.json",
+      "files": {
+        "web": "components/mobile/experience.tsx",
+        "native": "mobile/src/experience.tsx",
+        "sharedData": "registry/mobile/data.json"
+      },
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ]
+    },
+    {
+      "id": "mobile-booking",
+      "kind": "booking",
+      "name": "Book a session",
+      "description": "Service, day and time selection with a local confirmation.",
+      "version": "1.0.0",
+      "tags": [
+        "booking",
+        "calendar"
+      ],
+      "defaultStyle": "organic-natural",
+      "defaultTheme": "forest",
+      "defaultMotion": "subtle",
+      "manifest": "registry/mobile/screens.json",
+      "files": {
+        "web": "components/mobile/experience.tsx",
+        "native": "mobile/src/experience.tsx",
+        "sharedData": "registry/mobile/data.json"
+      },
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ]
+    },
+    {
+      "id": "mobile-profile",
+      "kind": "profile",
+      "name": "Profile & account",
+      "description": "Editable name, account overview and navigation to preferences.",
+      "version": "1.0.0",
+      "tags": [
+        "profile",
+        "account"
+      ],
+      "defaultStyle": "soft-ui",
+      "defaultTheme": "lavender",
+      "defaultMotion": "subtle",
+      "manifest": "registry/mobile/screens.json",
+      "files": {
+        "web": "components/mobile/experience.tsx",
+        "native": "mobile/src/experience.tsx",
+        "sharedData": "registry/mobile/data.json"
+      },
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ]
+    },
+    {
+      "id": "mobile-settings",
+      "kind": "settings",
+      "name": "Preferences",
+      "description": "Theme mode, local notification preference and reset confirmation.",
+      "version": "1.0.0",
+      "tags": [
+        "settings",
+        "preferences"
+      ],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "slate-neutral",
+      "defaultMotion": "no-motion",
+      "manifest": "registry/mobile/screens.json",
+      "files": {
+        "web": "components/mobile/experience.tsx",
+        "native": "mobile/src/experience.tsx",
+        "sharedData": "registry/mobile/data.json"
+      },
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "admin-dashboard",
+      "kind": "template",
+      "description": "Your team's activity, operations, and upcoming priorities.",
+      "tags": [
+        "dashboard",
+        "sidebar",
+        "orbit-admin"
+      ],
+      "manifest": "registry/templates/admin-dashboard.json",
+      "files": [
+        "registry/templates/admin-dashboard.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "agency-corporate",
+      "kind": "template",
+      "description": "We bring clarity to complex challenges through strategy, technology, and lasting partnerships.",
+      "tags": [
+        "marketing",
+        "split",
+        "northstar"
+      ],
+      "manifest": "registry/templates/agency-corporate.json",
+      "files": [
+        "registry/templates/agency-corporate.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "agency-creative",
+      "kind": "template",
+      "description": "Independent strategy and design for brands with something to say.",
+      "tags": [
+        "marketing",
+        "statement",
+        "off/grid"
+      ],
+      "manifest": "registry/templates/agency-creative.json",
+      "files": [
+        "registry/templates/agency-creative.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "ai-product-landing",
+      "kind": "template",
+      "description": "An intelligent canvas that turns your team's knowledge into useful, dependable workflows.",
+      "tags": [
+        "marketing",
+        "terminal",
+        "synapse"
+      ],
+      "manifest": "registry/templates/ai-product-landing.json",
+      "files": [
+        "registry/templates/ai-product-landing.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "analytics-dashboard",
+      "kind": "template",
+      "description": "A closer look at your audience, acquisition, and conversion.",
+      "tags": [
+        "dashboard",
+        "rail",
+        "signal"
+      ],
+      "manifest": "registry/templates/analytics-dashboard.json",
+      "files": [
+        "registry/templates/analytics-dashboard.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "architecture-studio",
+      "kind": "template",
+      "description": "Architecture rooted in place. Thoughtful spaces for the way we work, gather, and live.",
+      "tags": [
+        "specialized",
+        "editorial",
+        "studio-/-arch"
+      ],
+      "manifest": "registry/templates/architecture-studio.json",
+      "files": [
+        "registry/templates/architecture-studio.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "automotive-dealership",
+      "kind": "template",
+      "description": "Carefully inspected vehicles, clear pricing, and people who help you choose with confidence.",
+      "tags": [
+        "specialized",
+        "split",
+        "motive"
+      ],
+      "manifest": "registry/templates/automotive-dealership.json",
+      "files": [
+        "registry/templates/automotive-dealership.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "blog-editorial",
+      "kind": "template",
+      "description": "Independent perspectives on culture, design, and the way we live.",
+      "tags": [
+        "content-commerce",
+        "editorial",
+        "the-fieldnote"
+      ],
+      "manifest": "registry/templates/blog-editorial.json",
+      "files": [
+        "registry/templates/blog-editorial.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "blog-magazine",
+      "kind": "template",
+      "description": "Culture, technology, science, and ideas that deserve a closer look.",
+      "tags": [
+        "content-commerce",
+        "mosaic",
+        "current"
+      ],
+      "manifest": "registry/templates/blog-magazine.json",
+      "files": [
+        "registry/templates/blog-magazine.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "community-management",
+      "kind": "template",
+      "description": "A connected place for residents, shared spaces, and everyday requests.",
+      "tags": [
+        "dashboard",
+        "split",
+        "neighbors"
+      ],
+      "manifest": "registry/templates/community-management.json",
+      "files": [
+        "registry/templates/community-management.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "construction-company",
+      "kind": "template",
+      "description": "From first drawings to final handover. Commercial construction with care, precision, and accountability.",
+      "tags": [
+        "specialized",
+        "statement",
+        "foundation"
+      ],
+      "manifest": "registry/templates/construction-company.json",
+      "files": [
+        "registry/templates/construction-company.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "consulting-firm",
+      "kind": "template",
+      "description": "We help leaders navigate change with research, rigorous strategy, and practical execution.",
+      "tags": [
+        "industry",
+        "editorial",
+        "meridian"
+      ],
+      "manifest": "registry/templates/consulting-firm.json",
+      "files": [
+        "registry/templates/consulting-firm.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "crm-dashboard",
+      "kind": "template",
+      "description": "Keep relationships moving from first conversation to lasting partnership.",
+      "tags": [
+        "dashboard",
+        "workspace",
+        "relay-crm"
+      ],
+      "manifest": "registry/templates/crm-dashboard.json",
+      "files": [
+        "registry/templates/crm-dashboard.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "docs-developer",
+      "kind": "template",
+      "description": "Practical guides and an approachable API for shipping your next integration.",
+      "tags": [
+        "content-commerce",
+        "search",
+        "orbit-docs"
+      ],
+      "manifest": "registry/templates/docs-developer.json",
+      "files": [
+        "registry/templates/docs-developer.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "ecommerce-marketplace",
+      "kind": "template",
+      "description": "Independent makers. Exceptional finds. One thoughtfully curated marketplace.",
+      "tags": [
+        "content-commerce",
+        "search",
+        "common-market"
+      ],
+      "manifest": "registry/templates/ecommerce-marketplace.json",
+      "files": [
+        "registry/templates/ecommerce-marketplace.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "ecommerce-premium-store",
+      "kind": "template",
+      "description": "Considered essentials, crafted to last. Discover the autumn collection.",
+      "tags": [
+        "content-commerce",
+        "immersive",
+        "forme"
+      ],
+      "manifest": "registry/templates/ecommerce-premium-store.json",
+      "files": [
+        "registry/templates/ecommerce-premium-store.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "education-school",
+      "kind": "template",
+      "description": "A welcoming learning community where children discover their strengths and learn with purpose.",
+      "tags": [
+        "industry",
+        "mosaic",
+        "willow-school"
+      ],
+      "manifest": "registry/templates/education-school.json",
+      "files": [
+        "registry/templates/education-school.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "event-conference",
+      "kind": "template",
+      "description": "Two days of honest conversations about design, technology, and what comes next.",
+      "tags": [
+        "specialized",
+        "countdown",
+        "next-/-26"
+      ],
+      "manifest": "registry/templates/event-conference.json",
+      "files": [
+        "registry/templates/event-conference.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "finance-dashboard",
+      "kind": "template",
+      "description": "Cash flow, invoices, and a clear view of what comes next.",
+      "tags": [
+        "dashboard",
+        "topbar",
+        "ledger"
+      ],
+      "manifest": "registry/templates/finance-dashboard.json",
+      "files": [
+        "registry/templates/finance-dashboard.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "fintech-landing",
+      "kind": "template",
+      "description": "Spend, save, and plan in one place. Simple tools for everyday financial confidence.",
+      "tags": [
+        "industry",
+        "product",
+        "tempo"
+      ],
+      "manifest": "registry/templates/fintech-landing.json",
+      "files": [
+        "registry/templates/fintech-landing.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "fitness-gym",
+      "kind": "template",
+      "description": "Expert coaching, a welcoming community, and training that meets you where you are.",
+      "tags": [
+        "industry",
+        "statement",
+        "rep-/-club"
+      ],
+      "manifest": "registry/templates/fitness-gym.json",
+      "files": [
+        "registry/templates/fitness-gym.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "gaming-community",
+      "kind": "template",
+      "description": "A welcoming home for players, creators, and the moments worth sharing.",
+      "tags": [
+        "specialized",
+        "statement",
+        "nexus"
+      ],
+      "manifest": "registry/templates/gaming-community.json",
+      "files": [
+        "registry/templates/gaming-community.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "healthcare-clinic",
+      "kind": "template",
+      "description": "Personal primary care, experienced clinicians, and appointments that fit your life.",
+      "tags": [
+        "industry",
+        "split",
+        "everwell"
+      ],
+      "manifest": "registry/templates/healthcare-clinic.json",
+      "files": [
+        "registry/templates/healthcare-clinic.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "hotel-booking",
+      "kind": "template",
+      "description": "A lakeside retreat where considered design meets the comfort of doing nothing at all.",
+      "tags": [
+        "content-commerce",
+        "video",
+        "the-stillwater"
+      ],
+      "manifest": "registry/templates/hotel-booking.json",
+      "files": [
+        "registry/templates/hotel-booking.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "hrms-dashboard",
+      "kind": "template",
+      "description": "A thoughtful home for your team, leave requests, and hiring.",
+      "tags": [
+        "dashboard",
+        "dual",
+        "people-&-co."
+      ],
+      "manifest": "registry/templates/hrms-dashboard.json",
+      "files": [
+        "registry/templates/hrms-dashboard.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "inventory-management",
+      "kind": "template",
+      "description": "Know what is on the shelf, on the way, and ready to ship.",
+      "tags": [
+        "dashboard",
+        "compact",
+        "stockroom"
+      ],
+      "manifest": "registry/templates/inventory-management.json",
+      "files": [
+        "registry/templates/inventory-management.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "job-board",
+      "kind": "template",
+      "description": "Meaningful roles at thoughtful companies. Your next chapter is here.",
+      "tags": [
+        "specialized",
+        "search",
+        "goodwork"
+      ],
+      "manifest": "registry/templates/job-board.json",
+      "files": [
+        "registry/templates/job-board.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "law-firm",
+      "kind": "template",
+      "description": "Experienced legal guidance for businesses, families, and the decisions that matter most.",
+      "tags": [
+        "industry",
+        "profile",
+        "hart-&-lowe"
+      ],
+      "manifest": "registry/templates/law-firm.json",
+      "files": [
+        "registry/templates/law-firm.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "logistics-dashboard",
+      "kind": "template",
+      "description": "Live sample routes, delivery performance, and fleet readiness.",
+      "tags": [
+        "dashboard",
+        "command",
+        "dispatch"
+      ],
+      "manifest": "registry/templates/logistics-dashboard.json",
+      "files": [
+        "registry/templates/logistics-dashboard.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "mobile-app-promo",
+      "kind": "template",
+      "description": "Simple daily practices to help you slow down, reset, and feel more present.",
+      "tags": [
+        "specialized",
+        "product",
+        "pause"
+      ],
+      "manifest": "registry/templates/mobile-app-promo.json",
+      "files": [
+        "registry/templates/mobile-app-promo.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "multi-tenant-saas-dashboard",
+      "kind": "template",
+      "description": "Manage workspaces, usage, and access across your organization.",
+      "tags": [
+        "dashboard",
+        "sidebar",
+        "orbit-enterprise"
+      ],
+      "manifest": "registry/templates/multi-tenant-saas-dashboard.json",
+      "files": [
+        "registry/templates/multi-tenant-saas-dashboard.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "music-artist",
+      "kind": "template",
+      "description": "The new album. Ten stories about the spaces between where we are and where we want to be.",
+      "tags": [
+        "specialized",
+        "immersive",
+        "luna-vale"
+      ],
+      "manifest": "registry/templates/music-artist.json",
+      "files": [
+        "registry/templates/music-artist.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "nonprofit-donation",
+      "kind": "template",
+      "description": "Together, we support community-led education and clean water projects that make a measurable difference.",
+      "tags": [
+        "industry",
+        "split",
+        "open-hands"
+      ],
+      "manifest": "registry/templates/nonprofit-donation.json",
+      "files": [
+        "registry/templates/nonprofit-donation.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "online-course",
+      "kind": "template",
+      "description": "A practical, project-based course for designers ready to sharpen their craft.",
+      "tags": [
+        "industry",
+        "product",
+        "studio-academy"
+      ],
+      "manifest": "registry/templates/online-course.json",
+      "files": [
+        "registry/templates/online-course.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "personal-brand",
+      "kind": "template",
+      "description": "Writer, speaker, and researcher exploring how people do their most meaningful work.",
+      "tags": [
+        "marketing",
+        "profile",
+        "dr.-avery-reed"
+      ],
+      "manifest": "registry/templates/personal-brand.json",
+      "files": [
+        "registry/templates/personal-brand.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "portfolio-designer",
+      "kind": "template",
+      "description": "Product designer making complex experiences feel beautifully simple.",
+      "tags": [
+        "marketing",
+        "mosaic",
+        "mira-chen"
+      ],
+      "manifest": "registry/templates/portfolio-designer.json",
+      "files": [
+        "registry/templates/portfolio-designer.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "portfolio-developer",
+      "kind": "template",
+      "description": "Frontend engineer working at the intersection of accessible interfaces and thoughtful systems.",
+      "tags": [
+        "marketing",
+        "terminal",
+        "alex-morgan"
+      ],
+      "manifest": "registry/templates/portfolio-developer.json",
+      "files": [
+        "registry/templates/portfolio-developer.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "portfolio-photography",
+      "kind": "template",
+      "description": "Travel, architecture, and the quiet moments in between. Selected photographs, 2023–2026.",
+      "tags": [
+        "marketing",
+        "immersive",
+        "jonah-ellis"
+      ],
+      "manifest": "registry/templates/portfolio-photography.json",
+      "files": [
+        "registry/templates/portfolio-photography.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "product-detail",
+      "kind": "template",
+      "description": "Solid oak, honest materials, and a silhouette that belongs anywhere.",
+      "tags": [
+        "content-commerce",
+        "product",
+        "forme"
+      ],
+      "manifest": "registry/templates/product-detail.json",
+      "files": [
+        "registry/templates/product-detail.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "project-management",
+      "kind": "template",
+      "description": "The work, people, and decisions behind your next release.",
+      "tags": [
+        "dashboard",
+        "workspace",
+        "forma"
+      ],
+      "manifest": "registry/templates/project-management.json",
+      "files": [
+        "registry/templates/project-management.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "real-estate-agent",
+      "kind": "template",
+      "description": "Neighborhood expertise and personal guidance, from your first viewing to the keys in your hand.",
+      "tags": [
+        "industry",
+        "profile",
+        "elena-brooks"
+      ],
+      "manifest": "registry/templates/real-estate-agent.json",
+      "files": [
+        "registry/templates/real-estate-agent.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "real-estate-listing",
+      "kind": "template",
+      "description": "Thoughtfully selected homes, honest advice, and a simpler path to your next address.",
+      "tags": [
+        "content-commerce",
+        "search",
+        "habitat"
+      ],
+      "manifest": "registry/templates/real-estate-listing.json",
+      "files": [
+        "registry/templates/real-estate-listing.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "restaurant-landing",
+      "kind": "template",
+      "description": "Seasonal ingredients, an open fire, and a warm welcome. Modern Mediterranean cooking in the heart of the city.",
+      "tags": [
+        "content-commerce",
+        "immersive",
+        "olive-&-ember"
+      ],
+      "manifest": "registry/templates/restaurant-landing.json",
+      "files": [
+        "registry/templates/restaurant-landing.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "saas-landing-01",
+      "kind": "template",
+      "description": "A calm workspace for ambitious teams. Plan projects, share decisions, and make progress visible.",
+      "tags": [
+        "marketing",
+        "split",
+        "orbit"
+      ],
+      "manifest": "registry/templates/saas-landing-01.json",
+      "files": [
+        "registry/templates/saas-landing-01.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "saas-landing-02",
+      "kind": "template",
+      "description": "Connect systems, protect your data, and give every team a trusted source of truth.",
+      "tags": [
+        "marketing",
+        "product",
+        "sentinel"
+      ],
+      "manifest": "registry/templates/saas-landing-02.json",
+      "files": [
+        "registry/templates/saas-landing-02.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "school-management",
+      "kind": "template",
+      "description": "Attendance, classes, and the daily rhythm of your school.",
+      "tags": [
+        "dashboard",
+        "dual",
+        "campus"
+      ],
+      "manifest": "registry/templates/school-management.json",
+      "files": [
+        "registry/templates/school-management.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "startup-launch",
+      "kind": "template",
+      "description": "A thoughtful home for your ideas. Join the early community shaping a simpler way to create.",
+      "tags": [
+        "marketing",
+        "countdown",
+        "daybreak"
+      ],
+      "manifest": "registry/templates/startup-launch.json",
+      "files": [
+        "registry/templates/startup-launch.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "support-center",
+      "kind": "template",
+      "description": "Find answers, follow a guide, or talk to someone who knows the product.",
+      "tags": [
+        "specialized",
+        "search",
+        "orbit-help"
+      ],
+      "manifest": "registry/templates/support-center.json",
+      "files": [
+        "registry/templates/support-center.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "travel-destination",
+      "kind": "template",
+      "description": "Small-group journeys, local knowledge, and space for the unexpected.",
+      "tags": [
+        "content-commerce",
+        "mosaic",
+        "wander-atlas"
+      ],
+      "manifest": "registry/templates/travel-destination.json",
+      "files": [
+        "registry/templates/travel-destination.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "university-admissions",
+      "kind": "template",
+      "description": "Explore your interests, challenge your thinking, and join a community that believes in possibility.",
+      "tags": [
+        "industry",
+        "video",
+        "westbridge"
+      ],
+      "manifest": "registry/templates/university-admissions.json",
+      "files": [
+        "registry/templates/university-admissions.json",
+        "lib/template-renderer.tsx"
+      ],
+      "compatibleStyles": [
+        "modern-minimal",
+        "corporate-enterprise",
+        "glassmorphism",
+        "neo-brutalism",
+        "luxury-premium",
+        "editorial-magazine",
+        "swiss-grid",
+        "soft-ui",
+        "dark-cinematic",
+        "cyberpunk",
+        "retro-arcade",
+        "playful-friendly",
+        "organic-natural",
+        "gradient-tech",
+        "monochrome",
+        "bento-modern",
+        "industrial",
+        "warm-human",
+        "futuristic-spatial",
+        "creative-expressive"
+      ],
+      "supportedThemes": [
+        "ocean-blue",
+        "royal-purple",
+        "emerald",
+        "sunset-orange",
+        "ruby-red",
+        "rose",
+        "violet",
+        "midnight",
+        "slate-neutral",
+        "warm-sand",
+        "forest",
+        "teal",
+        "indigo",
+        "sky",
+        "lavender",
+        "citrus",
+        "coral",
+        "coffee",
+        "luxury-gold",
+        "monochrome-dark",
+        "aurora",
+        "cyberpunk-neon",
+        "pastel",
+        "enterprise-neutral"
+      ],
+      "supportedMotion": [
+        "no-motion",
+        "subtle",
+        "premium-smooth",
+        "spring-interactive",
+        "energetic",
+        "editorial",
+        "stagger-reveal",
+        "fade-reveal",
+        "slide-reveal",
+        "scale-reveal",
+        "parallax-light",
+        "cinematic",
+        "futuristic",
+        "playful",
+        "dashboard-fast",
+        "luxury-slow"
+      ]
+    },
+    {
+      "id": "bento-modern",
+      "kind": "style",
+      "description": "Bento Modern typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/bento-modern.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "corporate-enterprise",
+      "kind": "style",
+      "description": "Corporate Enterprise typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/corporate-enterprise.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "creative-expressive",
+      "kind": "style",
+      "description": "Creative Expressive typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/creative-expressive.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "cyberpunk",
+      "kind": "style",
+      "description": "Cyberpunk typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/cyberpunk.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "dark-cinematic",
+      "kind": "style",
+      "description": "Dark Cinematic typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/dark-cinematic.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "editorial-magazine",
+      "kind": "style",
+      "description": "Editorial Magazine typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/editorial-magazine.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "futuristic-spatial",
+      "kind": "style",
+      "description": "Futuristic Spatial typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/futuristic-spatial.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "glassmorphism",
+      "kind": "style",
+      "description": "Glassmorphism typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/glassmorphism.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "gradient-tech",
+      "kind": "style",
+      "description": "Gradient Tech typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/gradient-tech.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "industrial",
+      "kind": "style",
+      "description": "Industrial typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/industrial.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "luxury-premium",
+      "kind": "style",
+      "description": "Luxury Premium typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/luxury-premium.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "modern-minimal",
+      "kind": "style",
+      "description": "Modern Minimal typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/modern-minimal.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "monochrome",
+      "kind": "style",
+      "description": "Monochrome typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/monochrome.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "neo-brutalism",
+      "kind": "style",
+      "description": "Neo Brutalism typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/neo-brutalism.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "organic-natural",
+      "kind": "style",
+      "description": "Organic Natural typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/organic-natural.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "playful-friendly",
+      "kind": "style",
+      "description": "Playful Friendly typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/playful-friendly.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "retro-arcade",
+      "kind": "style",
+      "description": "Retro Arcade typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/retro-arcade.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "soft-ui",
+      "kind": "style",
+      "description": "Soft Ui typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/soft-ui.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "swiss-grid",
+      "kind": "style",
+      "description": "Swiss Grid typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/swiss-grid.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "warm-human",
+      "kind": "style",
+      "description": "Warm Human typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "manifest": "registry/styles/warm-human.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "aurora",
+      "kind": "theme",
+      "description": "Aurora semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/aurora.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "citrus",
+      "kind": "theme",
+      "description": "Citrus semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/citrus.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "coffee",
+      "kind": "theme",
+      "description": "Coffee semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/coffee.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "coral",
+      "kind": "theme",
+      "description": "Coral semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/coral.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "cyberpunk-neon",
+      "kind": "theme",
+      "description": "Cyberpunk Neon semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/cyberpunk-neon.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "emerald",
+      "kind": "theme",
+      "description": "Emerald semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/emerald.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "enterprise-neutral",
+      "kind": "theme",
+      "description": "Enterprise Neutral semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/enterprise-neutral.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "forest",
+      "kind": "theme",
+      "description": "Forest semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/forest.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "indigo",
+      "kind": "theme",
+      "description": "Indigo semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/indigo.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "lavender",
+      "kind": "theme",
+      "description": "Lavender semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/lavender.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "luxury-gold",
+      "kind": "theme",
+      "description": "Luxury Gold semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/luxury-gold.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "midnight",
+      "kind": "theme",
+      "description": "Midnight semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/midnight.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "monochrome-dark",
+      "kind": "theme",
+      "description": "Monochrome Dark semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/monochrome-dark.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "ocean-blue",
+      "kind": "theme",
+      "description": "Ocean Blue semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/ocean-blue.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "pastel",
+      "kind": "theme",
+      "description": "Pastel semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/pastel.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "rose",
+      "kind": "theme",
+      "description": "Rose semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/rose.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "royal-purple",
+      "kind": "theme",
+      "description": "Royal Purple semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/royal-purple.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "ruby-red",
+      "kind": "theme",
+      "description": "Ruby Red semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/ruby-red.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "sky",
+      "kind": "theme",
+      "description": "Sky semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/sky.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "slate-neutral",
+      "kind": "theme",
+      "description": "Slate Neutral semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/slate-neutral.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "sunset-orange",
+      "kind": "theme",
+      "description": "Sunset Orange semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/sunset-orange.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "teal",
+      "kind": "theme",
+      "description": "Teal semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/teal.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "violet",
+      "kind": "theme",
+      "description": "Violet semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/violet.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "warm-sand",
+      "kind": "theme",
+      "description": "Warm Sand semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "manifest": "registry/themes/warm-sand.json",
+      "files": [
+        "lib/theme.ts"
+      ]
+    },
+    {
+      "id": "cinematic",
+      "kind": "motion",
+      "description": "Cinematic configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/cinematic.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "dashboard-fast",
+      "kind": "motion",
+      "description": "Dashboard Fast configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/dashboard-fast.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "editorial",
+      "kind": "motion",
+      "description": "Editorial configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/editorial.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "energetic",
+      "kind": "motion",
+      "description": "Energetic configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/energetic.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "fade-reveal",
+      "kind": "motion",
+      "description": "Fade Reveal configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/fade-reveal.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "futuristic",
+      "kind": "motion",
+      "description": "Futuristic configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/futuristic.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "luxury-slow",
+      "kind": "motion",
+      "description": "Luxury Slow configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/luxury-slow.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "no-motion",
+      "kind": "motion",
+      "description": "No Motion configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/no-motion.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "parallax-light",
+      "kind": "motion",
+      "description": "Parallax Light configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/parallax-light.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "playful",
+      "kind": "motion",
+      "description": "Playful configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/playful.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "premium-smooth",
+      "kind": "motion",
+      "description": "Premium Smooth configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/premium-smooth.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "scale-reveal",
+      "kind": "motion",
+      "description": "Scale Reveal configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/scale-reveal.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "slide-reveal",
+      "kind": "motion",
+      "description": "Slide Reveal configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/slide-reveal.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "spring-interactive",
+      "kind": "motion",
+      "description": "Spring Interactive configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/spring-interactive.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "stagger-reveal",
+      "kind": "motion",
+      "description": "Stagger Reveal configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/stagger-reveal.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "subtle",
+      "kind": "motion",
+      "description": "Subtle configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "manifest": "registry/motion/subtle.json",
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ]
+    },
+    {
+      "id": "ui-accordion",
+      "kind": "component",
+      "description": "Accordion accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-accordion.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-alert",
+      "kind": "component",
+      "description": "Alert accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-alert.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-avatar",
+      "kind": "component",
+      "description": "Avatar accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-avatar.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-badge",
+      "kind": "component",
+      "description": "Badge accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-badge.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-border-glow",
+      "kind": "component",
+      "description": "Container-sized decorative border with intensity, speed, pause, and reduced-motion support.",
+      "tags": [
+        "effect",
+        "border",
+        "glow"
+      ],
+      "manifest": "registry/components/ui-border-glow.json",
+      "files": [
+        "components/ui/effects.tsx",
+        "styles/effects.css"
+      ]
+    },
+    {
+      "id": "ui-breadcrumbs",
+      "kind": "component",
+      "description": "Breadcrumbs accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-breadcrumbs.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-button",
+      "kind": "component",
+      "description": "Button accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-button.json",
+      "files": [
+        "components/ui/button.tsx"
+      ]
+    },
+    {
+      "id": "ui-card",
+      "kind": "component",
+      "description": "Card accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-card.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-chart",
+      "kind": "component",
+      "description": "Chart accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-chart.json",
+      "files": [
+        "components/dashboards/data.tsx"
+      ]
+    },
+    {
+      "id": "ui-checkbox",
+      "kind": "component",
+      "description": "Checkbox accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-checkbox.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-command-menu",
+      "kind": "component",
+      "description": "Command Menu accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-command-menu.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-data-table",
+      "kind": "component",
+      "description": "Data Table accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-data-table.json",
+      "files": [
+        "components/dashboards/data.tsx"
+      ]
+    },
+    {
+      "id": "ui-dialog",
+      "kind": "component",
+      "description": "Dialog accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-dialog.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-drawer",
+      "kind": "component",
+      "description": "Drawer accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-drawer.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-dropdown-menu",
+      "kind": "component",
+      "description": "Dropdown Menu accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-dropdown-menu.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-empty-state",
+      "kind": "component",
+      "description": "Empty State accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-empty-state.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-form-field",
+      "kind": "component",
+      "description": "Form Field accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-form-field.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-input",
+      "kind": "component",
+      "description": "Input accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-input.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-label",
+      "kind": "component",
+      "description": "Label accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-label.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-link",
+      "kind": "component",
+      "description": "Link accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-link.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-loading",
+      "kind": "component",
+      "description": "Loading accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-loading.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-metallic-button",
+      "kind": "component",
+      "description": "Semantic action button with optional metallic sheen on pointer hover and keyboard focus.",
+      "tags": [
+        "effect",
+        "button",
+        "metal"
+      ],
+      "manifest": "registry/components/ui-metallic-button.json",
+      "files": [
+        "components/ui/effects.tsx",
+        "styles/effects.css"
+      ]
+    },
+    {
+      "id": "ui-pagination",
+      "kind": "component",
+      "description": "Pagination accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-pagination.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-popover",
+      "kind": "component",
+      "description": "Popover accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-popover.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-progress",
+      "kind": "component",
+      "description": "Progress accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-progress.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-radio",
+      "kind": "component",
+      "description": "Radio accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-radio.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-select",
+      "kind": "component",
+      "description": "Select accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-select.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-separator",
+      "kind": "component",
+      "description": "Separator accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-separator.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-skeleton",
+      "kind": "component",
+      "description": "Skeleton accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-skeleton.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-status-orb",
+      "kind": "component",
+      "description": "Scalable status indicator with five semantic states, configurable speed, pause, and accessible status text.",
+      "tags": [
+        "effect",
+        "orb",
+        "loading"
+      ],
+      "manifest": "registry/components/ui-status-orb.json",
+      "files": [
+        "components/ui/effects.tsx",
+        "styles/effects.css"
+      ]
+    },
+    {
+      "id": "ui-switch",
+      "kind": "component",
+      "description": "Switch accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-switch.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-tabs",
+      "kind": "component",
+      "description": "Tabs accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-tabs.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-textarea",
+      "kind": "component",
+      "description": "Textarea accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-textarea.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-toast",
+      "kind": "component",
+      "description": "Toast accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-toast.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "ui-tooltip",
+      "kind": "component",
+      "description": "Tooltip accessible reusable primitive.",
+      "tags": [
+        "component"
+      ],
+      "manifest": "registry/components/ui-tooltip.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "app-activity",
+      "kind": "section",
+      "description": "Activity app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-activity.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "app-analytics",
+      "kind": "section",
+      "description": "Analytics app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-analytics.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "app-community",
+      "kind": "section",
+      "description": "Community app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-community.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "app-finance",
+      "kind": "section",
+      "description": "Finance app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-finance.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "app-inventory",
+      "kind": "section",
+      "description": "Inventory app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-inventory.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "app-kanban",
+      "kind": "section",
+      "description": "Kanban app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-kanban.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "app-logistics",
+      "kind": "section",
+      "description": "Logistics app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-logistics.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "app-notifications",
+      "kind": "section",
+      "description": "Notifications app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-notifications.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "app-overview",
+      "kind": "section",
+      "description": "Overview app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-overview.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "app-people",
+      "kind": "section",
+      "description": "People app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-people.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "app-pipeline",
+      "kind": "section",
+      "description": "Pipeline app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-pipeline.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "app-settings",
+      "kind": "section",
+      "description": "Settings app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-settings.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "app-students",
+      "kind": "section",
+      "description": "Students app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-students.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "app-tenants",
+      "kind": "section",
+      "description": "Tenants app composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/app-tenants.json",
+      "files": [
+        "components/dashboards/workspaces.tsx"
+      ]
+    },
+    {
+      "id": "card-accent",
+      "kind": "section",
+      "description": "Accent card composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/card-accent.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "card-elevated",
+      "kind": "section",
+      "description": "Elevated card composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/card-elevated.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "card-horizontal",
+      "kind": "section",
+      "description": "Horizontal card composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/card-horizontal.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "card-image",
+      "kind": "section",
+      "description": "Image card composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/card-image.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "card-interactive",
+      "kind": "section",
+      "description": "Interactive card composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/card-interactive.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "card-metric",
+      "kind": "section",
+      "description": "Metric card composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/card-metric.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "card-outline",
+      "kind": "section",
+      "description": "Outline card composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/card-outline.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "card-plain",
+      "kind": "section",
+      "description": "Plain card composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/card-plain.json",
+      "files": [
+        "components/ui/primitives.tsx"
+      ]
+    },
+    {
+      "id": "content-admissions",
+      "kind": "section",
+      "description": "Admissions content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-admissions.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-articles",
+      "kind": "section",
+      "description": "Articles content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-articles.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-booking",
+      "kind": "section",
+      "description": "Booking content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-booking.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-comparison",
+      "kind": "section",
+      "description": "Comparison content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-comparison.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-contact",
+      "kind": "section",
+      "description": "Contact content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-contact.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-cookie",
+      "kind": "section",
+      "description": "Cookie content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-cookie.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-course",
+      "kind": "section",
+      "description": "Course content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-course.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-docs",
+      "kind": "section",
+      "description": "Searchable documentation navigation, practical guides and copyable code examples.",
+      "tags": [
+        "documentation",
+        "developer",
+        "content"
+      ],
+      "manifest": "registry/sections/content-docs.json",
+      "files": [
+        "components/sections/documentation.tsx"
+      ]
+    },
+    {
+      "id": "content-donation",
+      "kind": "section",
+      "description": "Donation content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-donation.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-events",
+      "kind": "section",
+      "description": "Events content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-events.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-faq-search",
+      "kind": "section",
+      "description": "Faq Search content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-faq-search.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-gallery",
+      "kind": "section",
+      "description": "Gallery content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-gallery.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-jobs",
+      "kind": "section",
+      "description": "Jobs content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-jobs.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-leaderboard",
+      "kind": "section",
+      "description": "Leaderboard content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-leaderboard.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-logos",
+      "kind": "section",
+      "description": "Logos content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-logos.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-menu",
+      "kind": "section",
+      "description": "Menu content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-menu.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-metrics",
+      "kind": "section",
+      "description": "Metrics content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-metrics.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-product-detail",
+      "kind": "section",
+      "description": "Product Detail content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-product-detail.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-products",
+      "kind": "section",
+      "description": "Products content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-products.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-properties",
+      "kind": "section",
+      "description": "Properties content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-properties.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-reviews",
+      "kind": "section",
+      "description": "Reviews content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-reviews.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-schedule",
+      "kind": "section",
+      "description": "Schedule content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-schedule.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-services",
+      "kind": "section",
+      "description": "Services content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-services.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-showcase",
+      "kind": "section",
+      "description": "Showcase content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-showcase.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-team",
+      "kind": "section",
+      "description": "Team content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-team.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-timeline",
+      "kind": "section",
+      "description": "Timeline content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-timeline.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "content-tracks",
+      "kind": "section",
+      "description": "Tracks content composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/content-tracks.json",
+      "files": [
+        "components/sections/content.tsx"
+      ]
+    },
+    {
+      "id": "cta-banner",
+      "kind": "section",
+      "description": "Banner cta composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/cta-banner.json",
+      "files": [
+        "components/sections/cta.tsx"
+      ]
+    },
+    {
+      "id": "cta-card",
+      "kind": "section",
+      "description": "Card cta composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/cta-card.json",
+      "files": [
+        "components/sections/cta.tsx"
+      ]
+    },
+    {
+      "id": "cta-centered",
+      "kind": "section",
+      "description": "Centered cta composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/cta-centered.json",
+      "files": [
+        "components/sections/cta.tsx"
+      ]
+    },
+    {
+      "id": "cta-download",
+      "kind": "section",
+      "description": "Download cta composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/cta-download.json",
+      "files": [
+        "components/sections/cta.tsx"
+      ]
+    },
+    {
+      "id": "cta-immersive",
+      "kind": "section",
+      "description": "Immersive cta composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/cta-immersive.json",
+      "files": [
+        "components/sections/cta.tsx"
+      ]
+    },
+    {
+      "id": "cta-minimal",
+      "kind": "section",
+      "description": "Minimal cta composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/cta-minimal.json",
+      "files": [
+        "components/sections/cta.tsx"
+      ]
+    },
+    {
+      "id": "cta-newsletter",
+      "kind": "section",
+      "description": "Newsletter cta composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/cta-newsletter.json",
+      "files": [
+        "components/sections/cta.tsx"
+      ]
+    },
+    {
+      "id": "cta-split",
+      "kind": "section",
+      "description": "Split cta composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/cta-split.json",
+      "files": [
+        "components/sections/cta.tsx"
+      ]
+    },
+    {
+      "id": "faq-grid",
+      "kind": "section",
+      "description": "Grid faq composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/faq-grid.json",
+      "files": [
+        "components/sections/faq.tsx"
+      ]
+    },
+    {
+      "id": "faq-numbered",
+      "kind": "section",
+      "description": "Numbered faq composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/faq-numbered.json",
+      "files": [
+        "components/sections/faq.tsx"
+      ]
+    },
+    {
+      "id": "faq-search",
+      "kind": "section",
+      "description": "Search faq composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/faq-search.json",
+      "files": [
+        "components/sections/faq.tsx"
+      ]
+    },
+    {
+      "id": "faq-split",
+      "kind": "section",
+      "description": "Split faq composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/faq-split.json",
+      "files": [
+        "components/sections/faq.tsx"
+      ]
+    },
+    {
+      "id": "faq-stack",
+      "kind": "section",
+      "description": "Stack faq composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/faq-stack.json",
+      "files": [
+        "components/sections/faq.tsx"
+      ]
+    },
+    {
+      "id": "faq-tabs",
+      "kind": "section",
+      "description": "Tabs faq composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/faq-tabs.json",
+      "files": [
+        "components/sections/faq.tsx"
+      ]
+    },
+    {
+      "id": "features-alternating",
+      "kind": "section",
+      "description": "Alternating features composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/features-alternating.json",
+      "files": [
+        "components/sections/features.tsx"
+      ]
+    },
+    {
+      "id": "features-bento",
+      "kind": "section",
+      "description": "Bento features composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/features-bento.json",
+      "files": [
+        "components/sections/features.tsx"
+      ]
+    },
+    {
+      "id": "features-comparison",
+      "kind": "section",
+      "description": "Comparison features composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/features-comparison.json",
+      "files": [
+        "components/sections/features.tsx"
+      ]
+    },
+    {
+      "id": "features-grid",
+      "kind": "section",
+      "description": "Grid features composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/features-grid.json",
+      "files": [
+        "components/sections/features.tsx"
+      ]
+    },
+    {
+      "id": "features-icon-list",
+      "kind": "section",
+      "description": "Icon List features composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/features-icon-list.json",
+      "files": [
+        "components/sections/features.tsx"
+      ]
+    },
+    {
+      "id": "features-marquee",
+      "kind": "section",
+      "description": "Marquee features composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/features-marquee.json",
+      "files": [
+        "components/sections/features.tsx"
+      ]
+    },
+    {
+      "id": "features-numbered",
+      "kind": "section",
+      "description": "Numbered features composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/features-numbered.json",
+      "files": [
+        "components/sections/features.tsx"
+      ]
+    },
+    {
+      "id": "features-spotlight",
+      "kind": "section",
+      "description": "Spotlight features composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/features-spotlight.json",
+      "files": [
+        "components/sections/features.tsx"
+      ]
+    },
+    {
+      "id": "features-tabs",
+      "kind": "section",
+      "description": "Tabs features composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/features-tabs.json",
+      "files": [
+        "components/sections/features.tsx"
+      ]
+    },
+    {
+      "id": "features-timeline",
+      "kind": "section",
+      "description": "Timeline features composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/features-timeline.json",
+      "files": [
+        "components/sections/features.tsx"
+      ]
+    },
+    {
+      "id": "footer-columns",
+      "kind": "section",
+      "description": "Columns footer composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/footer-columns.json",
+      "files": [
+        "components/sections/footer.tsx"
+      ]
+    },
+    {
+      "id": "footer-compact",
+      "kind": "section",
+      "description": "Compact footer composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/footer-compact.json",
+      "files": [
+        "components/sections/footer.tsx"
+      ]
+    },
+    {
+      "id": "footer-editorial",
+      "kind": "section",
+      "description": "Editorial footer composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/footer-editorial.json",
+      "files": [
+        "components/sections/footer.tsx"
+      ]
+    },
+    {
+      "id": "footer-mega",
+      "kind": "section",
+      "description": "Mega footer composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/footer-mega.json",
+      "files": [
+        "components/sections/footer.tsx"
+      ]
+    },
+    {
+      "id": "footer-minimal",
+      "kind": "section",
+      "description": "Minimal footer composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/footer-minimal.json",
+      "files": [
+        "components/sections/footer.tsx"
+      ]
+    },
+    {
+      "id": "footer-newsletter",
+      "kind": "section",
+      "description": "Newsletter footer composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/footer-newsletter.json",
+      "files": [
+        "components/sections/footer.tsx"
+      ]
+    },
+    {
+      "id": "footer-social",
+      "kind": "section",
+      "description": "Social footer composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/footer-social.json",
+      "files": [
+        "components/sections/footer.tsx"
+      ]
+    },
+    {
+      "id": "footer-split",
+      "kind": "section",
+      "description": "Split footer composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/footer-split.json",
+      "files": [
+        "components/sections/footer.tsx"
+      ]
+    },
+    {
+      "id": "hero-centered",
+      "kind": "section",
+      "description": "Centered hero composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/hero-centered.json",
+      "files": [
+        "components/sections/hero.tsx"
+      ]
+    },
+    {
+      "id": "hero-countdown",
+      "kind": "section",
+      "description": "Countdown hero composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/hero-countdown.json",
+      "files": [
+        "components/sections/hero.tsx"
+      ]
+    },
+    {
+      "id": "hero-editorial",
+      "kind": "section",
+      "description": "Editorial hero composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/hero-editorial.json",
+      "files": [
+        "components/sections/hero.tsx"
+      ]
+    },
+    {
+      "id": "hero-immersive",
+      "kind": "section",
+      "description": "Immersive hero composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/hero-immersive.json",
+      "files": [
+        "components/sections/hero.tsx"
+      ]
+    },
+    {
+      "id": "hero-mosaic",
+      "kind": "section",
+      "description": "Mosaic hero composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/hero-mosaic.json",
+      "files": [
+        "components/sections/hero.tsx"
+      ]
+    },
+    {
+      "id": "hero-product",
+      "kind": "section",
+      "description": "Product hero composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/hero-product.json",
+      "files": [
+        "components/sections/hero.tsx"
+      ]
+    },
+    {
+      "id": "hero-profile",
+      "kind": "section",
+      "description": "Profile hero composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/hero-profile.json",
+      "files": [
+        "components/sections/hero.tsx"
+      ]
+    },
+    {
+      "id": "hero-search",
+      "kind": "section",
+      "description": "Search hero composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/hero-search.json",
+      "files": [
+        "components/sections/hero.tsx"
+      ]
+    },
+    {
+      "id": "hero-split",
+      "kind": "section",
+      "description": "Split hero composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/hero-split.json",
+      "files": [
+        "components/sections/hero.tsx"
+      ]
+    },
+    {
+      "id": "hero-statement",
+      "kind": "section",
+      "description": "Statement hero composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/hero-statement.json",
+      "files": [
+        "components/sections/hero.tsx"
+      ]
+    },
+    {
+      "id": "hero-terminal",
+      "kind": "section",
+      "description": "Terminal hero composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/hero-terminal.json",
+      "files": [
+        "components/sections/hero.tsx"
+      ]
+    },
+    {
+      "id": "hero-video",
+      "kind": "section",
+      "description": "Video hero composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/hero-video.json",
+      "files": [
+        "components/sections/hero.tsx"
+      ]
+    },
+    {
+      "id": "navbar-centered",
+      "kind": "section",
+      "description": "Centered navbar composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/navbar-centered.json",
+      "files": [
+        "components/navigation/navbars.tsx"
+      ]
+    },
+    {
+      "id": "navbar-classic",
+      "kind": "section",
+      "description": "Classic navbar composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/navbar-classic.json",
+      "files": [
+        "components/navigation/navbars.tsx"
+      ]
+    },
+    {
+      "id": "navbar-compact",
+      "kind": "section",
+      "description": "Compact navbar composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/navbar-compact.json",
+      "files": [
+        "components/navigation/navbars.tsx"
+      ]
+    },
+    {
+      "id": "navbar-editorial",
+      "kind": "section",
+      "description": "Editorial navbar composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/navbar-editorial.json",
+      "files": [
+        "components/navigation/navbars.tsx"
+      ]
+    },
+    {
+      "id": "navbar-floating",
+      "kind": "section",
+      "description": "Floating navbar composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/navbar-floating.json",
+      "files": [
+        "components/navigation/navbars.tsx"
+      ]
+    },
+    {
+      "id": "navbar-mega",
+      "kind": "section",
+      "description": "Mega navbar composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/navbar-mega.json",
+      "files": [
+        "components/navigation/navbars.tsx"
+      ]
+    },
+    {
+      "id": "navbar-split",
+      "kind": "section",
+      "description": "Split navbar composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/navbar-split.json",
+      "files": [
+        "components/navigation/navbars.tsx"
+      ]
+    },
+    {
+      "id": "navbar-transparent",
+      "kind": "section",
+      "description": "Transparent navbar composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/navbar-transparent.json",
+      "files": [
+        "components/navigation/navbars.tsx"
+      ]
+    },
+    {
+      "id": "pricing-comparison",
+      "kind": "section",
+      "description": "Comparison pricing composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/pricing-comparison.json",
+      "files": [
+        "components/sections/pricing.tsx"
+      ]
+    },
+    {
+      "id": "pricing-enterprise",
+      "kind": "section",
+      "description": "Enterprise pricing composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/pricing-enterprise.json",
+      "files": [
+        "components/sections/pricing.tsx"
+      ]
+    },
+    {
+      "id": "pricing-horizontal",
+      "kind": "section",
+      "description": "Horizontal pricing composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/pricing-horizontal.json",
+      "files": [
+        "components/sections/pricing.tsx"
+      ]
+    },
+    {
+      "id": "pricing-single",
+      "kind": "section",
+      "description": "Single pricing composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/pricing-single.json",
+      "files": [
+        "components/sections/pricing.tsx"
+      ]
+    },
+    {
+      "id": "pricing-split",
+      "kind": "section",
+      "description": "Split pricing composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/pricing-split.json",
+      "files": [
+        "components/sections/pricing.tsx"
+      ]
+    },
+    {
+      "id": "pricing-three-tier",
+      "kind": "section",
+      "description": "Three Tier pricing composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/pricing-three-tier.json",
+      "files": [
+        "components/sections/pricing.tsx"
+      ]
+    },
+    {
+      "id": "pricing-toggle",
+      "kind": "section",
+      "description": "Toggle pricing composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/pricing-toggle.json",
+      "files": [
+        "components/sections/pricing.tsx"
+      ]
+    },
+    {
+      "id": "pricing-usage",
+      "kind": "section",
+      "description": "Usage pricing composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/pricing-usage.json",
+      "files": [
+        "components/sections/pricing.tsx"
+      ]
+    },
+    {
+      "id": "shell-command",
+      "kind": "section",
+      "description": "Command shell composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/shell-command.json",
+      "files": [
+        "components/dashboards/shells.tsx"
+      ]
+    },
+    {
+      "id": "shell-compact",
+      "kind": "section",
+      "description": "Compact shell composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/shell-compact.json",
+      "files": [
+        "components/dashboards/shells.tsx"
+      ]
+    },
+    {
+      "id": "shell-dual",
+      "kind": "section",
+      "description": "Dual shell composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/shell-dual.json",
+      "files": [
+        "components/dashboards/shells.tsx"
+      ]
+    },
+    {
+      "id": "shell-rail",
+      "kind": "section",
+      "description": "Rail shell composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/shell-rail.json",
+      "files": [
+        "components/dashboards/shells.tsx"
+      ]
+    },
+    {
+      "id": "shell-sidebar",
+      "kind": "section",
+      "description": "Sidebar shell composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/shell-sidebar.json",
+      "files": [
+        "components/dashboards/shells.tsx"
+      ]
+    },
+    {
+      "id": "shell-split",
+      "kind": "section",
+      "description": "Split shell composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/shell-split.json",
+      "files": [
+        "components/dashboards/shells.tsx"
+      ]
+    },
+    {
+      "id": "shell-topbar",
+      "kind": "section",
+      "description": "Topbar shell composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/shell-topbar.json",
+      "files": [
+        "components/dashboards/shells.tsx"
+      ]
+    },
+    {
+      "id": "shell-workspace",
+      "kind": "section",
+      "description": "Workspace shell composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/shell-workspace.json",
+      "files": [
+        "components/dashboards/shells.tsx"
+      ]
+    },
+    {
+      "id": "testimonials-carousel",
+      "kind": "section",
+      "description": "Carousel testimonials composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/testimonials-carousel.json",
+      "files": [
+        "components/sections/testimonials.tsx"
+      ]
+    },
+    {
+      "id": "testimonials-editorial",
+      "kind": "section",
+      "description": "Editorial testimonials composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/testimonials-editorial.json",
+      "files": [
+        "components/sections/testimonials.tsx"
+      ]
+    },
+    {
+      "id": "testimonials-grid",
+      "kind": "section",
+      "description": "Grid testimonials composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/testimonials-grid.json",
+      "files": [
+        "components/sections/testimonials.tsx"
+      ]
+    },
+    {
+      "id": "testimonials-logos",
+      "kind": "section",
+      "description": "Logos testimonials composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/testimonials-logos.json",
+      "files": [
+        "components/sections/testimonials.tsx"
+      ]
+    },
+    {
+      "id": "testimonials-rating",
+      "kind": "section",
+      "description": "Rating testimonials composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/testimonials-rating.json",
+      "files": [
+        "components/sections/testimonials.tsx"
+      ]
+    },
+    {
+      "id": "testimonials-split",
+      "kind": "section",
+      "description": "Split testimonials composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/testimonials-split.json",
+      "files": [
+        "components/sections/testimonials.tsx"
+      ]
+    },
+    {
+      "id": "testimonials-spotlight",
+      "kind": "section",
+      "description": "Spotlight testimonials composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/testimonials-spotlight.json",
+      "files": [
+        "components/sections/testimonials.tsx"
+      ]
+    },
+    {
+      "id": "testimonials-wall",
+      "kind": "section",
+      "description": "Wall testimonials composition.",
+      "tags": [
+        "section"
+      ],
+      "manifest": "registry/sections/testimonials-wall.json",
+      "files": [
+        "components/sections/testimonials.tsx"
+      ]
+    }
+  ]
+}

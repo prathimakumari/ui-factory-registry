@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "hero-editorial",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Hero Editorial",
+  "description": "Editorial hero composition.",
+  "tags": ["section"],
+  "files": ["components/sections/hero.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "HeroSection",
+  "group": "hero",
+  "variant": "editorial",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

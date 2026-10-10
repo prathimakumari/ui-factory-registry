@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "id": "product-detail",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Product Detail",
+  "description": "Solid oak, honest materials, and a silhouette that belongs anywhere.",
+  "tags": ["content-commerce", "product", "forme"],
+  "files": ["registry/templates/product-detail.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "content-commerce",
+  "defaultStyleId": "modern-minimal",
+  "defaultThemeId": "warm-sand",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-compact",
+      "key": "navbar-compact",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "FORME",
+        "href": "#content-product-detail",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-product",
+      "key": "hero-product",
+      "content": {
+        "eyebrow": "FORME",
+        "title": "The Everyday Chair",
+        "description": "Solid oak, honest materials, and a silhouette that belongs anywhere.",
+        "action": "Explore FORME",
+        "href": "#content-product-detail",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ],
+        "image": "/images/interior.jpg"
+      }
+    },
+    {
+      "id": "content-product-detail",
+      "key": "content-product-detail",
+      "content": {
+        "eyebrow": "Product Detail",
+        "title": "Designed for the everyday",
+        "href": "#content-product-detail",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "features-tabs",
+      "key": "features-tabs",
+      "content": {
+        "eyebrow": "Features",
+        "title": "Everything you need. Nothing in your way.",
+        "href": "#content-product-detail",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-reviews",
+      "key": "content-reviews",
+      "content": {
+        "eyebrow": "Reviews",
+        "title": "Words from our community",
+        "href": "#content-product-detail",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-products",
+      "key": "content-products",
+      "content": {
+        "eyebrow": "Products",
+        "title": "The considered collection",
+        "href": "#content-product-detail",
+        "items": [
+          {
+            "title": "Studio Chair",
+            "description": "Solid oak · Natural finish",
+            "price": 249,
+            "category": "Featured",
+            "image": "/images/interior.jpg"
+          },
+          {
+            "title": "Arc Table Lamp",
+            "description": "Warm light · Brushed steel",
+            "price": 129,
+            "category": "Essentials",
+            "image": "/images/objects.jpg"
+          },
+          {
+            "title": "Everyday Tote",
+            "description": "Organic cotton · Sand",
+            "price": 48,
+            "category": "Featured",
+            "image": "/images/objects.jpg"
+          },
+          {
+            "title": "Form Ceramic Set",
+            "description": "Hand-finished · Set of two",
+            "price": 64,
+            "category": "Essentials",
+            "image": "/images/objects.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "LET’S CONNECT",
+        "title": "Start a conversation.",
+        "description": "Tell us a little about what you have in mind.",
+        "items": []
+      }
+    },
+    {
+      "id": "footer-compact",
+      "key": "footer-compact",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "FORME",
+        "href": "#content-product-detail",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

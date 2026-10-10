@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "card-accent",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Card Accent",
+  "description": "Accent card composition.",
+  "tags": ["section"],
+  "files": ["components/ui/primitives.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "CardSection",
+  "group": "card",
+  "variant": "accent",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

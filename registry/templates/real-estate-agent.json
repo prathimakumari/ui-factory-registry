@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "id": "real-estate-agent",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Real Estate Agent",
+  "description": "Neighborhood expertise and personal guidance, from your first viewing to the keys in your hand.",
+  "tags": ["industry", "profile", "elena-brooks"],
+  "files": ["registry/templates/real-estate-agent.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "industry",
+  "defaultStyleId": "warm-human",
+  "defaultThemeId": "emerald",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-classic",
+      "key": "navbar-classic",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "Elena Brooks",
+        "href": "#content-properties",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-profile",
+      "key": "hero-profile",
+      "content": {
+        "eyebrow": "Elena Brooks",
+        "title": "Your next chapter starts here.",
+        "description": "Neighborhood expertise and personal guidance, from your first viewing to the keys in your hand.",
+        "action": "Explore Elena Brooks",
+        "href": "#content-properties",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ],
+        "image": "/images/architecture.jpg"
+      }
+    },
+    {
+      "id": "content-properties",
+      "key": "content-properties",
+      "content": {
+        "eyebrow": "Properties",
+        "title": "Homes worth a closer look",
+        "href": "#content-properties",
+        "items": [
+          {
+            "title": "The Courtyard House",
+            "description": "3 beds · 2 baths · 1,860 sq ft",
+            "price": 249,
+            "category": "Featured",
+            "image": "/images/architecture.jpg"
+          },
+          {
+            "title": "Riverlight Apartment",
+            "description": "2 beds · 2 baths · 1,240 sq ft",
+            "price": 129,
+            "category": "Essentials",
+            "image": "/images/interior.jpg"
+          },
+          {
+            "title": "Parkside Townhouse",
+            "description": "4 beds · 3 baths · 2,450 sq ft",
+            "price": 48,
+            "category": "Featured",
+            "image": "/images/landscape.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-metrics",
+      "key": "content-metrics",
+      "content": {
+        "eyebrow": "Metrics",
+        "title": "A little progress, every day",
+        "href": "#content-properties",
+        "items": [
+          {
+            "title": "Active members",
+            "description": "12,480",
+            "value": "12,480"
+          },
+          {
+            "title": "Satisfaction",
+            "description": "98%",
+            "value": "98%"
+          },
+          {
+            "title": "Years of experience",
+            "description": "12",
+            "value": "12"
+          },
+          {
+            "title": "Community projects",
+            "description": "240",
+            "value": "240"
+          }
+        ]
+      }
+    },
+    {
+      "id": "testimonials-wall",
+      "key": "testimonials-wall",
+      "content": {
+        "eyebrow": "Testimonials",
+        "title": "In good company",
+        "href": "#content-properties",
+        "items": [
+          {
+            "title": "Thoughtful from the first detail.",
+            "description": "We found the clarity we had been looking for. The whole experience felt considered and easy. — Jamie Parker, Studio North"
+          },
+          {
+            "title": "A real difference in our day.",
+            "description": "Our team spends less time coordinating and more time doing work we care about. — Alex Kim, Forma"
+          },
+          {
+            "title": "Simple in the best way.",
+            "description": "It does what we need beautifully, without getting in the way. — Morgan Reed, Fieldwork"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "Contact",
+        "title": "Let's start a conversation",
+        "href": "#content-properties",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "footer-editorial",
+      "key": "footer-editorial",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "Elena Brooks",
+        "href": "#content-properties",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

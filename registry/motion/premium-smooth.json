@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "premium-smooth",
+  "version": "1.0.0",
+  "kind": "motion",
+  "name": "Premium Smooth",
+  "description": "Premium Smooth configurable motion; disabled for reduced motion.",
+  "tags": ["motion"],
+  "files": ["components/motion/primitives.tsx", "components/motion/patterns.tsx", "lib/motion.ts"],
+  "dependencies": ["motion", "react", "zod"],
+  "duration": 0.55,
+  "ease": [0.22, 1, 0.36, 1],
+  "distance": 18,
+  "scale": 1,
+  "stagger": 0.07,
+  "spring": null,
+  "hover": 1.015,
+  "scroll": true,
+  "pattern": "slide",
+  "reducedMotion": "disable"
+}
