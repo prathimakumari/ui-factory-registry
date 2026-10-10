@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "spring-interactive",
+  "version": "1.0.0",
+  "kind": "motion",
+  "name": "Spring Interactive",
+  "description": "Spring Interactive configurable motion; disabled for reduced motion.",
+  "tags": ["motion"],
+  "files": ["components/motion/primitives.tsx", "components/motion/patterns.tsx", "lib/motion.ts"],
+  "dependencies": ["motion", "react", "zod"],
+  "duration": 0.3,
+  "ease": [0.22, 1, 0.36, 1],
+  "distance": 12,
+  "scale": 0.97,
+  "stagger": 0.04,
+  "spring": {
+    "stiffness": 300,
+    "damping": 24,
+    "mass": 1
+  },
+  "hover": 1.025,
+  "scroll": false,
+  "pattern": "scale",
+  "reducedMotion": "disable"
+}

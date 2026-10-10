@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "id": "personal-brand",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Personal Brand",
+  "description": "Writer, speaker, and researcher exploring how people do their most meaningful work.",
+  "tags": ["marketing", "profile", "dr.-avery-reed"],
+  "files": ["registry/templates/personal-brand.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "marketing",
+  "defaultStyleId": "warm-human",
+  "defaultThemeId": "coffee",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-classic",
+      "key": "navbar-classic",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "Dr. Avery Reed",
+        "href": "#content-articles",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-profile",
+      "key": "hero-profile",
+      "content": {
+        "eyebrow": "Dr. Avery Reed",
+        "title": "Ideas worth putting into practice.",
+        "description": "Writer, speaker, and researcher exploring how people do their most meaningful work.",
+        "action": "Explore Dr. Avery Reed",
+        "href": "#content-articles",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ],
+        "image": "/images/architecture.jpg"
+      }
+    },
+    {
+      "id": "content-articles",
+      "key": "content-articles",
+      "content": {
+        "eyebrow": "Articles",
+        "title": "From the journal",
+        "href": "#content-articles",
+        "items": [
+          {
+            "title": "The value of paying attention",
+            "description": "A closer look at the small details that shape our days."
+          },
+          {
+            "title": "Making space for better ideas",
+            "description": "Why thoughtful constraints can open new possibilities."
+          },
+          {
+            "title": "In conversation with the makers",
+            "description": "Meet the people building a more considered future."
+          },
+          {
+            "title": "A different kind of progress",
+            "description": "Measuring what matters, one step at a time."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-events",
+      "key": "content-events",
+      "content": {
+        "eyebrow": "Events",
+        "title": "What's coming up",
+        "href": "#content-articles",
+        "items": [
+          {
+            "title": "Opening conversations",
+            "description": "Oct 22 · 9:30 AM · Main stage"
+          },
+          {
+            "title": "Ideas into practice",
+            "description": "Oct 22 · 2:00 PM · Studio A"
+          },
+          {
+            "title": "Community gathering",
+            "description": "Oct 23 · 5:30 PM · Courtyard"
+          }
+        ]
+      }
+    },
+    {
+      "id": "testimonials-spotlight",
+      "key": "testimonials-spotlight",
+      "content": {
+        "eyebrow": "Testimonials",
+        "title": "In good company",
+        "href": "#content-articles",
+        "items": [
+          {
+            "title": "Thoughtful from the first detail.",
+            "description": "We found the clarity we had been looking for. The whole experience felt considered and easy. — Jamie Parker, Studio North"
+          },
+          {
+            "title": "A real difference in our day.",
+            "description": "Our team spends less time coordinating and more time doing work we care about. — Alex Kim, Forma"
+          },
+          {
+            "title": "Simple in the best way.",
+            "description": "It does what we need beautifully, without getting in the way. — Morgan Reed, Fieldwork"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta-newsletter",
+      "key": "cta-newsletter",
+      "content": {
+        "eyebrow": "Cta",
+        "title": "Make your next move",
+        "description": "Explore what is possible. Start with one simple step.",
+        "href": "#content-articles",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "LET’S CONNECT",
+        "title": "Start a conversation.",
+        "description": "Tell us a little about what you have in mind.",
+        "items": []
+      }
+    },
+    {
+      "id": "footer-columns",
+      "key": "footer-columns",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "Dr. Avery Reed",
+        "href": "#content-articles",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

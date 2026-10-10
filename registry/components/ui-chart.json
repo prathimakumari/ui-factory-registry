@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ui-chart",
+  "version": "1.0.0",
+  "kind": "component",
+  "name": "Ui Chart",
+  "description": "Chart accessible reusable primitive.",
+  "tags": ["component"],
+  "files": ["components/dashboards/data.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "Chart",
+  "group": "ui",
+  "responsive": true,
+  "accessible": true
+}

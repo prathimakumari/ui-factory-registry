@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "ui-metallic-button",
+  "version": "1.0.0",
+  "kind": "component",
+  "name": "Ui Metallic Button",
+  "description": "Semantic action button with optional metallic sheen on pointer hover and keyboard focus.",
+  "tags": ["effect", "button", "metal"],
+  "files": ["components/ui/effects.tsx", "styles/effects.css"],
+  "dependencies": ["react", "class-variance-authority", "clsx", "radix-ui", "tailwind-merge"],
+  "exportName": "MetallicButton",
+  "group": "ui",
+  "responsive": true,
+  "accessible": true
+}

@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "id": "saas-landing-02",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Saas Landing 02",
+  "description": "Connect systems, protect your data, and give every team a trusted source of truth.",
+  "tags": ["marketing", "product", "sentinel"],
+  "files": ["registry/templates/saas-landing-02.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "marketing",
+  "defaultStyleId": "corporate-enterprise",
+  "defaultThemeId": "midnight",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "dark",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-mega",
+      "key": "navbar-mega",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "Sentinel",
+        "href": "#content-logos",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-product",
+      "key": "hero-product",
+      "content": {
+        "eyebrow": "Sentinel",
+        "title": "Clarity at enterprise scale.",
+        "description": "Connect systems, protect your data, and give every team a trusted source of truth.",
+        "action": "Explore Sentinel",
+        "href": "#content-logos",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-logos",
+      "key": "content-logos",
+      "content": {
+        "eyebrow": "Logos",
+        "title": "Trusted by thoughtful teams",
+        "href": "#content-logos",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "features-comparison",
+      "key": "features-comparison",
+      "content": {
+        "eyebrow": "Features",
+        "title": "Everything you need. Nothing in your way.",
+        "href": "#content-logos",
+        "items": [
+          {
+            "title": "Access you can govern",
+            "description": "Role-based permissions, organization policies, and clear ownership."
+          },
+          {
+            "title": "A traceable record",
+            "description": "Review changes, approvals, and activity across connected teams."
+          },
+          {
+            "title": "Connected operations",
+            "description": "Bring critical workflows into a consistent, dependable workspace."
+          },
+          {
+            "title": "Ready for complex teams",
+            "description": "Separate workspaces, shared standards, and flexible reporting."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-comparison",
+      "key": "content-comparison",
+      "content": {
+        "eyebrow": "Comparison",
+        "title": "The details make the difference",
+        "href": "#content-logos",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pricing-enterprise",
+      "key": "pricing-enterprise",
+      "content": {
+        "eyebrow": "Pricing",
+        "title": "Choose what works for you",
+        "href": "#content-logos",
+        "items": [
+          {
+            "title": "Starter",
+            "description": "For individuals getting started"
+          },
+          {
+            "title": "Team",
+            "description": "For growing teams doing more"
+          },
+          {
+            "title": "Scale",
+            "description": "For organizations with bigger ambitions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta-split",
+      "key": "cta-split",
+      "content": {
+        "eyebrow": "Cta",
+        "title": "Make your next move",
+        "description": "Explore what is possible. Start with one simple step.",
+        "href": "#content-logos",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "LET’S CONNECT",
+        "title": "Start a conversation.",
+        "description": "Tell us a little about what you have in mind.",
+        "items": []
+      }
+    },
+    {
+      "id": "footer-columns",
+      "key": "footer-columns",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "Sentinel",
+        "href": "#content-logos",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

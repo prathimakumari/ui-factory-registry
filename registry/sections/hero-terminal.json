@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "hero-terminal",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Hero Terminal",
+  "description": "Terminal hero composition.",
+  "tags": ["section"],
+  "files": ["components/sections/hero.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "HeroSection",
+  "group": "hero",
+  "variant": "terminal",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

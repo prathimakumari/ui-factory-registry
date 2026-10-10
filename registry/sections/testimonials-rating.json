@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "testimonials-rating",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Testimonials Rating",
+  "description": "Rating testimonials composition.",
+  "tags": ["section"],
+  "files": ["components/sections/testimonials.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "TestimonialsSection",
+  "group": "testimonials",
+  "variant": "rating",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "id": "travel-destination",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Travel Destination",
+  "description": "Small-group journeys, local knowledge, and space for the unexpected.",
+  "tags": ["content-commerce", "mosaic", "wander-atlas"],
+  "files": ["registry/templates/travel-destination.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "content-commerce",
+  "defaultStyleId": "organic-natural",
+  "defaultThemeId": "sunset-orange",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-floating",
+      "key": "navbar-floating",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "Wander Atlas",
+        "href": "#content-booking",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-mosaic",
+      "key": "hero-mosaic",
+      "content": {
+        "eyebrow": "Wander Atlas",
+        "title": "Go somewhere that stays with you.",
+        "description": "Small-group journeys, local knowledge, and space for the unexpected.",
+        "action": "Explore Wander Atlas",
+        "href": "#content-booking",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ],
+        "image": "/images/landscape.jpg"
+      }
+    },
+    {
+      "id": "content-booking",
+      "key": "content-booking",
+      "content": {
+        "eyebrow": "Booking",
+        "title": "Make a little time for yourself",
+        "href": "#content-booking",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-gallery",
+      "key": "content-gallery",
+      "content": {
+        "eyebrow": "Gallery",
+        "title": "Selected work",
+        "href": "#content-booking",
+        "items": [
+          {
+            "title": "The Italian Lakes",
+            "description": "7 days · From $1,840",
+            "image": "/images/architecture.jpg"
+          },
+          {
+            "title": "Wild Iceland",
+            "description": "9 days · From $2,490",
+            "image": "/images/interior.jpg"
+          },
+          {
+            "title": "Kyoto in Autumn",
+            "description": "8 days · From $2,180",
+            "image": "/images/landscape.jpg"
+          },
+          {
+            "title": "Coastal Portugal",
+            "description": "6 days · From $1,260",
+            "image": "/images/objects.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-timeline",
+      "key": "content-timeline",
+      "content": {
+        "eyebrow": "Timeline",
+        "title": "A thoughtful process",
+        "href": "#content-booking",
+        "items": [
+          {
+            "title": "Listen & understand",
+            "description": "We begin with your goals and the context that matters."
+          },
+          {
+            "title": "Explore & create",
+            "description": "We develop thoughtful options and test them together."
+          },
+          {
+            "title": "Deliver & improve",
+            "description": "We bring the work to life and keep learning."
+          }
+        ]
+      }
+    },
+    {
+      "id": "testimonials-carousel",
+      "key": "testimonials-carousel",
+      "content": {
+        "eyebrow": "Testimonials",
+        "title": "In good company",
+        "href": "#content-booking",
+        "items": [
+          {
+            "title": "Thoughtful from the first detail.",
+            "description": "We found the clarity we had been looking for. The whole experience felt considered and easy. — Jamie Parker, Studio North"
+          },
+          {
+            "title": "A real difference in our day.",
+            "description": "Our team spends less time coordinating and more time doing work we care about. — Alex Kim, Forma"
+          },
+          {
+            "title": "Simple in the best way.",
+            "description": "It does what we need beautifully, without getting in the way. — Morgan Reed, Fieldwork"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "LET’S CONNECT",
+        "title": "Start a conversation.",
+        "description": "Tell us a little about what you have in mind.",
+        "items": []
+      }
+    },
+    {
+      "id": "footer-minimal",
+      "key": "footer-minimal",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "Wander Atlas",
+        "href": "#content-booking",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "parallax-light",
+  "version": "1.0.0",
+  "kind": "motion",
+  "name": "Parallax Light",
+  "description": "Parallax Light configurable motion; disabled for reduced motion.",
+  "tags": ["motion"],
+  "files": ["components/motion/primitives.tsx", "components/motion/patterns.tsx", "lib/motion.ts"],
+  "dependencies": ["motion", "react", "zod"],
+  "duration": 0.65,
+  "ease": [0.22, 1, 0.36, 1],
+  "distance": 16,
+  "scale": 1,
+  "stagger": 0.06,
+  "spring": null,
+  "hover": 1.015,
+  "scroll": true,
+  "pattern": "parallax",
+  "reducedMotion": "disable"
+}

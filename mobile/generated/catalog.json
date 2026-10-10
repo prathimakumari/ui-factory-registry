@@ -1,0 +1,3668 @@
+{
+  "schemaVersion": 1,
+  "screens": [
+    {
+      "id": "mobile-onboarding",
+      "kind": "onboarding",
+      "name": "Welcome & onboarding",
+      "description": "Three-step product introduction with skip and next actions.",
+      "version": "1.0.0",
+      "tags": [
+        "onboarding",
+        "welcome"
+      ],
+      "defaultStyle": "playful-friendly",
+      "defaultTheme": "royal-purple",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-sign-in",
+      "kind": "sign-in",
+      "name": "Sign in",
+      "description": "Email and password form with local validation and a demo session.",
+      "version": "1.0.0",
+      "tags": [
+        "auth",
+        "form"
+      ],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "ocean-blue",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-home",
+      "kind": "home",
+      "name": "Daily dashboard",
+      "description": "Personal overview, habit progress and quick navigation.",
+      "version": "1.0.0",
+      "tags": [
+        "dashboard",
+        "home"
+      ],
+      "defaultStyle": "soft-ui",
+      "defaultTheme": "emerald",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-search",
+      "kind": "search",
+      "name": "Explore & search",
+      "description": "Searchable product collection with category filters and an empty state.",
+      "version": "1.0.0",
+      "tags": [
+        "commerce",
+        "search"
+      ],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "warm-sand",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-product",
+      "kind": "product",
+      "name": "Product details",
+      "description": "Product story, selectable finish and add-to-bag action.",
+      "version": "1.0.0",
+      "tags": [
+        "commerce",
+        "details"
+      ],
+      "defaultStyle": "luxury-premium",
+      "defaultTheme": "coffee",
+      "defaultMotion": "premium-smooth"
+    },
+    {
+      "id": "mobile-cart",
+      "kind": "cart",
+      "name": "Shopping bag",
+      "description": "Editable quantities, totals and an empty-bag state.",
+      "version": "1.0.0",
+      "tags": [
+        "commerce",
+        "cart"
+      ],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "warm-sand",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-checkout",
+      "kind": "checkout",
+      "name": "Checkout review",
+      "description": "Delivery details, order review and a local order confirmation without payments.",
+      "version": "1.0.0",
+      "tags": [
+        "commerce",
+        "form"
+      ],
+      "defaultStyle": "corporate-enterprise",
+      "defaultTheme": "ocean-blue",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-activity",
+      "kind": "activity",
+      "name": "Activity & notifications",
+      "description": "Filterable timeline with unread state and mark-all-read action.",
+      "version": "1.0.0",
+      "tags": [
+        "notifications",
+        "activity"
+      ],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "indigo",
+      "defaultMotion": "dashboard-fast"
+    },
+    {
+      "id": "mobile-messages",
+      "kind": "messages",
+      "name": "Conversation",
+      "description": "Scrollable conversation with a working local message composer.",
+      "version": "1.0.0",
+      "tags": [
+        "chat",
+        "messages"
+      ],
+      "defaultStyle": "warm-human",
+      "defaultTheme": "teal",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-booking",
+      "kind": "booking",
+      "name": "Book a session",
+      "description": "Service, day and time selection with a local confirmation.",
+      "version": "1.0.0",
+      "tags": [
+        "booking",
+        "calendar"
+      ],
+      "defaultStyle": "organic-natural",
+      "defaultTheme": "forest",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-profile",
+      "kind": "profile",
+      "name": "Profile & account",
+      "description": "Editable name, account overview and navigation to preferences.",
+      "version": "1.0.0",
+      "tags": [
+        "profile",
+        "account"
+      ],
+      "defaultStyle": "soft-ui",
+      "defaultTheme": "lavender",
+      "defaultMotion": "subtle"
+    },
+    {
+      "id": "mobile-settings",
+      "kind": "settings",
+      "name": "Preferences",
+      "description": "Theme mode, local notification preference and reset confirmation.",
+      "version": "1.0.0",
+      "tags": [
+        "settings",
+        "preferences"
+      ],
+      "defaultStyle": "modern-minimal",
+      "defaultTheme": "slate-neutral",
+      "defaultMotion": "no-motion"
+    }
+  ],
+  "files": {
+    "web": "components/mobile/experience.tsx",
+    "native": "mobile/src/experience.tsx",
+    "sharedData": "registry/mobile/data.json"
+  },
+  "styles": [
+    {
+      "schemaVersion": 1,
+      "id": "bento-modern",
+      "version": "1.0.0",
+      "name": "Bento Modern",
+      "description": "Bento Modern typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Arial, Helvetica, sans-serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 700,
+      "bodyWeight": 400,
+      "headingScale": 1.05,
+      "density": 1,
+      "maxWidth": 1320,
+      "spacing": 20,
+      "borderWidth": 0,
+      "borderStyle": "solid",
+      "radius": 24,
+      "surface": "raised",
+      "shadow": "0 4px 16px #00000008",
+      "decoration": "none",
+      "button": "solid",
+      "input": "boxed",
+      "background": "plain",
+      "defaultMotionId": "spring-interactive",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "corporate-enterprise",
+      "version": "1.0.0",
+      "name": "Corporate Enterprise",
+      "description": "Corporate Enterprise typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Arial, Helvetica, sans-serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 700,
+      "bodyWeight": 400,
+      "headingScale": 0.94,
+      "density": 0.88,
+      "maxWidth": 1280,
+      "spacing": 20,
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "radius": 6,
+      "surface": "outlined",
+      "shadow": "0 2px 8px #00000008",
+      "decoration": "lines",
+      "button": "solid",
+      "input": "boxed",
+      "background": "plain",
+      "defaultMotionId": "dashboard-fast",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "creative-expressive",
+      "version": "1.0.0",
+      "name": "Creative Expressive",
+      "description": "Creative Expressive typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Georgia, serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 850,
+      "bodyWeight": 400,
+      "headingScale": 1.4,
+      "density": 1.25,
+      "maxWidth": 1400,
+      "spacing": 32,
+      "borderWidth": 2,
+      "borderStyle": "solid",
+      "radius": 8,
+      "surface": "raised",
+      "shadow": "8px 8px 0 var(--accent)",
+      "decoration": "dots",
+      "button": "offset",
+      "input": "boxed",
+      "background": "plain",
+      "defaultMotionId": "energetic",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "cyberpunk",
+      "version": "1.0.0",
+      "name": "Cyberpunk",
+      "description": "Cyberpunk typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "ui-monospace, monospace",
+      "bodyFont": "ui-monospace, monospace",
+      "headingWeight": 800,
+      "bodyWeight": 400,
+      "headingScale": 1.1,
+      "density": 0.9,
+      "maxWidth": 1360,
+      "spacing": 20,
+      "borderWidth": 2,
+      "borderStyle": "solid",
+      "radius": 2,
+      "surface": "outlined",
+      "shadow": "0 0 16px color-mix(in srgb,var(--primary) 18%,transparent)",
+      "decoration": "grid",
+      "button": "offset",
+      "input": "boxed",
+      "background": "grid",
+      "defaultMotionId": "futuristic",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "dark-cinematic",
+      "version": "1.0.0",
+      "name": "Dark Cinematic",
+      "description": "Dark Cinematic typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Georgia, serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 500,
+      "bodyWeight": 400,
+      "headingScale": 1.32,
+      "density": 1.4,
+      "maxWidth": 1400,
+      "spacing": 36,
+      "borderWidth": 0,
+      "borderStyle": "solid",
+      "radius": 4,
+      "surface": "flat",
+      "shadow": "0 24px 64px #00000025",
+      "decoration": "glow",
+      "button": "outline",
+      "input": "underline",
+      "background": "gradient",
+      "defaultMotionId": "cinematic",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "editorial-magazine",
+      "version": "1.0.0",
+      "name": "Editorial Magazine",
+      "description": "Editorial Magazine typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Georgia, serif",
+      "bodyFont": "Georgia, serif",
+      "headingWeight": 700,
+      "bodyWeight": 400,
+      "headingScale": 1.22,
+      "density": 1.15,
+      "maxWidth": 1320,
+      "spacing": 28,
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "radius": 0,
+      "surface": "flat",
+      "shadow": "none",
+      "decoration": "lines",
+      "button": "outline",
+      "input": "underline",
+      "background": "plain",
+      "defaultMotionId": "editorial",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "futuristic-spatial",
+      "version": "1.0.0",
+      "name": "Futuristic Spatial",
+      "description": "Futuristic Spatial typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Arial, Helvetica, sans-serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 450,
+      "bodyWeight": 400,
+      "headingScale": 1.18,
+      "density": 1.35,
+      "maxWidth": 1440,
+      "spacing": 32,
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "radius": 32,
+      "surface": "glass",
+      "shadow": "0 24px 64px #00000015",
+      "decoration": "glow",
+      "button": "pill",
+      "input": "inset",
+      "background": "gradient",
+      "defaultMotionId": "parallax-light",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "glassmorphism",
+      "version": "1.0.0",
+      "name": "Glassmorphism",
+      "description": "Glassmorphism typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Arial, Helvetica, sans-serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 550,
+      "bodyWeight": 400,
+      "headingScale": 1.1,
+      "density": 1.15,
+      "maxWidth": 1200,
+      "spacing": 28,
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "radius": 24,
+      "surface": "glass",
+      "shadow": "0 16px 40px #00000012",
+      "decoration": "glow",
+      "button": "pill",
+      "input": "boxed",
+      "background": "gradient",
+      "defaultMotionId": "premium-smooth",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "gradient-tech",
+      "version": "1.0.0",
+      "name": "Gradient Tech",
+      "description": "Gradient Tech typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Arial, Helvetica, sans-serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 750,
+      "bodyWeight": 400,
+      "headingScale": 1.15,
+      "density": 1.1,
+      "maxWidth": 1280,
+      "spacing": 28,
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "radius": 18,
+      "surface": "raised",
+      "shadow": "0 16px 48px #00000010",
+      "decoration": "glow",
+      "button": "pill",
+      "input": "boxed",
+      "background": "gradient",
+      "defaultMotionId": "stagger-reveal",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "industrial",
+      "version": "1.0.0",
+      "name": "Industrial",
+      "description": "Industrial typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "ui-monospace, monospace",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 800,
+      "bodyWeight": 400,
+      "headingScale": 0.96,
+      "density": 0.82,
+      "maxWidth": 1400,
+      "spacing": 16,
+      "borderWidth": 2,
+      "borderStyle": "dashed",
+      "radius": 0,
+      "surface": "outlined",
+      "shadow": "none",
+      "decoration": "lines",
+      "button": "outline",
+      "input": "boxed",
+      "background": "grid",
+      "defaultMotionId": "dashboard-fast",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "luxury-premium",
+      "version": "1.0.0",
+      "name": "Luxury Premium",
+      "description": "Luxury Premium typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Georgia, serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 400,
+      "bodyWeight": 400,
+      "headingScale": 1.25,
+      "density": 1.35,
+      "maxWidth": 1080,
+      "spacing": 32,
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "radius": 0,
+      "surface": "flat",
+      "shadow": "none",
+      "decoration": "lines",
+      "button": "outline",
+      "input": "underline",
+      "background": "plain",
+      "defaultMotionId": "luxury-slow",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "modern-minimal",
+      "version": "1.0.0",
+      "name": "Modern Minimal",
+      "description": "Modern Minimal typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Arial, Helvetica, sans-serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 650,
+      "bodyWeight": 400,
+      "headingScale": 1,
+      "density": 1,
+      "maxWidth": 1180,
+      "spacing": 24,
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "radius": 12,
+      "surface": "flat",
+      "shadow": "none",
+      "decoration": "none",
+      "button": "solid",
+      "input": "boxed",
+      "background": "plain",
+      "defaultMotionId": "subtle",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "monochrome",
+      "version": "1.0.0",
+      "name": "Monochrome",
+      "description": "Monochrome typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Arial, Helvetica, sans-serif",
+      "bodyFont": "ui-monospace, monospace",
+      "headingWeight": 700,
+      "bodyWeight": 400,
+      "headingScale": 1,
+      "density": 0.95,
+      "maxWidth": 1180,
+      "spacing": 24,
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "radius": 2,
+      "surface": "outlined",
+      "shadow": "none",
+      "decoration": "none",
+      "button": "outline",
+      "input": "underline",
+      "background": "plain",
+      "defaultMotionId": "no-motion",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "neo-brutalism",
+      "version": "1.0.0",
+      "name": "Neo Brutalism",
+      "description": "Neo Brutalism typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "ui-monospace, monospace",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 900,
+      "bodyWeight": 400,
+      "headingScale": 1.08,
+      "density": 1,
+      "maxWidth": 1280,
+      "spacing": 24,
+      "borderWidth": 3,
+      "borderStyle": "solid",
+      "radius": 0,
+      "surface": "outlined",
+      "shadow": "6px 6px 0 var(--foreground)",
+      "decoration": "grid",
+      "button": "offset",
+      "input": "boxed",
+      "background": "plain",
+      "defaultMotionId": "spring-interactive",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "organic-natural",
+      "version": "1.0.0",
+      "name": "Organic Natural",
+      "description": "Organic Natural typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Georgia, serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 500,
+      "bodyWeight": 400,
+      "headingScale": 1.08,
+      "density": 1.3,
+      "maxWidth": 1100,
+      "spacing": 32,
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "radius": 32,
+      "surface": "flat",
+      "shadow": "none",
+      "decoration": "none",
+      "button": "pill",
+      "input": "underline",
+      "background": "plain",
+      "defaultMotionId": "fade-reveal",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "playful-friendly",
+      "version": "1.0.0",
+      "name": "Playful Friendly",
+      "description": "Playful Friendly typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Arial, Helvetica, sans-serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 850,
+      "bodyWeight": 400,
+      "headingScale": 1.15,
+      "density": 1.15,
+      "maxWidth": 1160,
+      "spacing": 28,
+      "borderWidth": 2,
+      "borderStyle": "solid",
+      "radius": 28,
+      "surface": "raised",
+      "shadow": "0 8px 0 color-mix(in srgb,var(--primary) 20%,transparent)",
+      "decoration": "dots",
+      "button": "pill",
+      "input": "boxed",
+      "background": "plain",
+      "defaultMotionId": "playful",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "retro-arcade",
+      "version": "1.0.0",
+      "name": "Retro Arcade",
+      "description": "Retro Arcade typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "ui-monospace, monospace",
+      "bodyFont": "ui-monospace, monospace",
+      "headingWeight": 800,
+      "bodyWeight": 400,
+      "headingScale": 0.93,
+      "density": 0.95,
+      "maxWidth": 1100,
+      "spacing": 20,
+      "borderWidth": 4,
+      "borderStyle": "double",
+      "radius": 0,
+      "surface": "outlined",
+      "shadow": "4px 4px 0 var(--primary)",
+      "decoration": "dots",
+      "button": "offset",
+      "input": "boxed",
+      "background": "grid",
+      "defaultMotionId": "energetic",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "soft-ui",
+      "version": "1.0.0",
+      "name": "Soft Ui",
+      "description": "Soft Ui typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Arial, Helvetica, sans-serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 600,
+      "bodyWeight": 400,
+      "headingScale": 0.98,
+      "density": 1.1,
+      "maxWidth": 1160,
+      "spacing": 28,
+      "borderWidth": 0,
+      "borderStyle": "solid",
+      "radius": 24,
+      "surface": "inset",
+      "shadow": "8px 8px 24px #00000014",
+      "decoration": "none",
+      "button": "pill",
+      "input": "inset",
+      "background": "plain",
+      "defaultMotionId": "premium-smooth",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "swiss-grid",
+      "version": "1.0.0",
+      "name": "Swiss Grid",
+      "description": "Swiss Grid typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Arial, Helvetica, sans-serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 850,
+      "bodyWeight": 400,
+      "headingScale": 1.3,
+      "density": 0.95,
+      "maxWidth": 1440,
+      "spacing": 24,
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "radius": 0,
+      "surface": "outlined",
+      "shadow": "none",
+      "decoration": "grid",
+      "button": "solid",
+      "input": "boxed",
+      "background": "grid",
+      "defaultMotionId": "subtle",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "warm-human",
+      "version": "1.0.0",
+      "name": "Warm Human",
+      "description": "Warm Human typography, density, surface and interaction treatments.",
+      "tags": [
+        "style"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "style",
+      "headingFont": "Georgia, serif",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "headingWeight": 550,
+      "bodyWeight": 400,
+      "headingScale": 1.12,
+      "density": 1.2,
+      "maxWidth": 1120,
+      "spacing": 28,
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "radius": 16,
+      "surface": "flat",
+      "shadow": "0 4px 16px #00000008",
+      "decoration": "none",
+      "button": "pill",
+      "input": "underline",
+      "background": "plain",
+      "defaultMotionId": "subtle",
+      "suitableCategories": [
+        "marketing",
+        "content-commerce",
+        "industry",
+        "dashboard",
+        "specialized"
+      ],
+      "accessibility": "Preserve focus rings, text contrast, 44px touch targets and readable body text. Decorative effects are nonessential."
+    }
+  ],
+  "themes": [
+    {
+      "schemaVersion": 1,
+      "id": "aurora",
+      "version": "1.0.0",
+      "name": "Aurora",
+      "description": "Aurora semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#136b78",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#136b78",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#136b78",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#136b78",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#73dfd6",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#73dfd6",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#73dfd6",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#73dfd6",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "citrus",
+      "version": "1.0.0",
+      "name": "Citrus",
+      "description": "Citrus semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#566c05",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#566c05",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#566c05",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#566c05",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#d9ea78",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#d9ea78",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#d9ea78",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#d9ea78",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "coffee",
+      "version": "1.0.0",
+      "name": "Coffee",
+      "description": "Coffee semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#725044",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#725044",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#725044",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#725044",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#dcb9a4",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#dcb9a4",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#dcb9a4",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#dcb9a4",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "coral",
+      "version": "1.0.0",
+      "name": "Coral",
+      "description": "Coral semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#b7433c",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#b7433c",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#b7433c",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#b7433c",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#ffa59d",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#ffa59d",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#ffa59d",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#ffa59d",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "cyberpunk-neon",
+      "version": "1.0.0",
+      "name": "Cyberpunk Neon",
+      "description": "Cyberpunk Neon semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#a227b0",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#a227b0",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#a227b0",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#a227b0",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#ed94ff",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#ed94ff",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#ed94ff",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#ed94ff",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "emerald",
+      "version": "1.0.0",
+      "name": "Emerald",
+      "description": "Emerald semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#087b55",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#087b55",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#087b55",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#087b55",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#66ddb0",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#66ddb0",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#66ddb0",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#66ddb0",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "enterprise-neutral",
+      "version": "1.0.0",
+      "name": "Enterprise Neutral",
+      "description": "Enterprise Neutral semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#334155",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#334155",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#334155",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#334155",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#becbdf",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#becbdf",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#becbdf",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#becbdf",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "forest",
+      "version": "1.0.0",
+      "name": "Forest",
+      "description": "Forest semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#386333",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#386333",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#386333",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#386333",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#a5d299",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#a5d299",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#a5d299",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#a5d299",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "indigo",
+      "version": "1.0.0",
+      "name": "Indigo",
+      "description": "Indigo semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#444dc0",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#444dc0",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#444dc0",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#444dc0",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#abb4ff",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#abb4ff",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#abb4ff",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#abb4ff",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "lavender",
+      "version": "1.0.0",
+      "name": "Lavender",
+      "description": "Lavender semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#7459ad",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#7459ad",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#7459ad",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#7459ad",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#d0b9ff",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#d0b9ff",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#d0b9ff",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#d0b9ff",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "luxury-gold",
+      "version": "1.0.0",
+      "name": "Luxury Gold",
+      "description": "Luxury Gold semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#826213",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#826213",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#826213",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#826213",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#e6cb78",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#e6cb78",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#e6cb78",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#e6cb78",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "midnight",
+      "version": "1.0.0",
+      "name": "Midnight",
+      "description": "Midnight semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#294a81",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#294a81",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#294a81",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#294a81",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#91b8ed",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#91b8ed",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#91b8ed",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#91b8ed",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "monochrome-dark",
+      "version": "1.0.0",
+      "name": "Monochrome Dark",
+      "description": "Monochrome Dark semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#252525",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#252525",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#252525",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#252525",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#ededed",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#ededed",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#ededed",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#ededed",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ocean-blue",
+      "version": "1.0.0",
+      "name": "Ocean Blue",
+      "description": "Ocean Blue semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#145ce0",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#145ce0",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#145ce0",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#145ce0",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#83b4ff",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#83b4ff",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#83b4ff",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#83b4ff",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "pastel",
+      "version": "1.0.0",
+      "name": "Pastel",
+      "description": "Pastel semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#6f629c",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#6f629c",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#6f629c",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#6f629c",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#cbbde9",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#cbbde9",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#cbbde9",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#cbbde9",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "rose",
+      "version": "1.0.0",
+      "name": "Rose",
+      "description": "Rose semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#b62d69",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#b62d69",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#b62d69",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#b62d69",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#ff9fcd",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#ff9fcd",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#ff9fcd",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#ff9fcd",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "royal-purple",
+      "version": "1.0.0",
+      "name": "Royal Purple",
+      "description": "Royal Purple semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#7132c9",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#7132c9",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#7132c9",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#7132c9",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#c7a3ff",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#c7a3ff",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#c7a3ff",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#c7a3ff",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ruby-red",
+      "version": "1.0.0",
+      "name": "Ruby Red",
+      "description": "Ruby Red semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#b5233a",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#b5233a",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#b5233a",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#b5233a",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#ff9baa",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#ff9baa",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#ff9baa",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#ff9baa",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "sky",
+      "version": "1.0.0",
+      "name": "Sky",
+      "description": "Sky semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#086eae",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#086eae",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#086eae",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#086eae",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#82d2ff",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#82d2ff",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#82d2ff",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#82d2ff",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "slate-neutral",
+      "version": "1.0.0",
+      "name": "Slate Neutral",
+      "description": "Slate Neutral semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#46566b",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#46566b",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#46566b",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#46566b",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#acbfd6",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#acbfd6",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#acbfd6",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#acbfd6",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "sunset-orange",
+      "version": "1.0.0",
+      "name": "Sunset Orange",
+      "description": "Sunset Orange semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#b74b09",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#b74b09",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#b74b09",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#b74b09",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#ffb176",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#ffb176",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#ffb176",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#ffb176",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "teal",
+      "version": "1.0.0",
+      "name": "Teal",
+      "description": "Teal semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#087477",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#087477",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#087477",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#087477",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#7cdbdf",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#7cdbdf",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#7cdbdf",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#7cdbdf",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "violet",
+      "version": "1.0.0",
+      "name": "Violet",
+      "description": "Violet semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#7239bc",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#7239bc",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#7239bc",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#7239bc",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#c6a2ff",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#c6a2ff",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#c6a2ff",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#c6a2ff",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "warm-sand",
+      "version": "1.0.0",
+      "name": "Warm Sand",
+      "description": "Warm Sand semantic palette with accessible light and dark modes.",
+      "tags": [
+        "theme"
+      ],
+      "files": [
+        "lib/theme.ts"
+      ],
+      "dependencies": [
+        "react",
+        "zod"
+      ],
+      "kind": "theme",
+      "light": {
+        "background": "#f8fafc",
+        "foreground": "#172131",
+        "primary": "#826039",
+        "primary-foreground": "#ffffff",
+        "secondary": "#e8edf4",
+        "secondary-foreground": "#23344b",
+        "accent": "#e4ebf5",
+        "accent-foreground": "#23344b",
+        "card": "#ffffff",
+        "card-foreground": "#172131",
+        "muted": "#edf1f6",
+        "muted-foreground": "#526279",
+        "border": "#8492a6",
+        "input": "#7b8ba0",
+        "ring": "#826039",
+        "success": "#08633e",
+        "warning": "#845409",
+        "destructive": "#ae2235",
+        "info": "#15599b",
+        "link": "#826039",
+        "selected": "#dce6f4",
+        "sidebar": "#eef2f8",
+        "sidebar-foreground": "#23344b",
+        "sidebar-accent": "#dce6f4",
+        "chart-1": "#826039",
+        "chart-2": "#168274",
+        "chart-3": "#8250b3",
+        "chart-4": "#a4771b",
+        "chart-5": "#bd4d70"
+      },
+      "dark": {
+        "background": "#11151d",
+        "foreground": "#edf2f8",
+        "primary": "#e4c397",
+        "primary-foreground": "#101820",
+        "secondary": "#253142",
+        "secondary-foreground": "#f0f5ff",
+        "accent": "#2c3849",
+        "accent-foreground": "#eff5ff",
+        "card": "#19212c",
+        "card-foreground": "#edf2f8",
+        "muted": "#242e3c",
+        "muted-foreground": "#b0bdce",
+        "border": "#526076",
+        "input": "#62718a",
+        "ring": "#e4c397",
+        "success": "#6de3ad",
+        "warning": "#f5cd74",
+        "destructive": "#ffaaaa",
+        "info": "#92c8ff",
+        "link": "#e4c397",
+        "selected": "#303f54",
+        "sidebar": "#131a24",
+        "sidebar-foreground": "#e2ebfa",
+        "sidebar-accent": "#2c3849",
+        "chart-1": "#e4c397",
+        "chart-2": "#70d4bd",
+        "chart-3": "#d8b2ff",
+        "chart-4": "#edc681",
+        "chart-5": "#f49cab"
+      },
+      "gradients": {
+        "hero": "linear-gradient(135deg, var(--background), var(--accent))",
+        "accent": "linear-gradient(120deg, var(--primary), var(--chart-2))"
+      }
+    }
+  ],
+  "motions": [
+    {
+      "schemaVersion": 1,
+      "id": "cinematic",
+      "version": "1.0.0",
+      "name": "Cinematic",
+      "description": "Cinematic configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.9,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 36,
+      "scale": 0.98,
+      "stagger": 0.14,
+      "spring": null,
+      "hover": 1.01,
+      "scroll": true,
+      "pattern": "slide",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "dashboard-fast",
+      "version": "1.0.0",
+      "name": "Dashboard Fast",
+      "description": "Dashboard Fast configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.12,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 4,
+      "scale": 1,
+      "stagger": 0.012,
+      "spring": null,
+      "hover": 1.005,
+      "scroll": false,
+      "pattern": "fade",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "editorial",
+      "version": "1.0.0",
+      "name": "Editorial",
+      "description": "Editorial configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.65,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 12,
+      "scale": 1,
+      "stagger": 0.12,
+      "spring": null,
+      "hover": 1.01,
+      "scroll": true,
+      "pattern": "fade",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "energetic",
+      "version": "1.0.0",
+      "name": "Energetic",
+      "description": "Energetic configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.24,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 28,
+      "scale": 0.95,
+      "stagger": 0.045,
+      "spring": {
+        "stiffness": 400,
+        "damping": 20,
+        "mass": 0.8
+      },
+      "hover": 1.04,
+      "scroll": false,
+      "pattern": "slide",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "fade-reveal",
+      "version": "1.0.0",
+      "name": "Fade Reveal",
+      "description": "Fade Reveal configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.45,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 0,
+      "scale": 1,
+      "stagger": 0.05,
+      "spring": null,
+      "hover": 1.01,
+      "scroll": true,
+      "pattern": "fade",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "futuristic",
+      "version": "1.0.0",
+      "name": "Futuristic",
+      "description": "Futuristic configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.32,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 14,
+      "scale": 0.96,
+      "stagger": 0.035,
+      "spring": null,
+      "hover": 1.025,
+      "scroll": false,
+      "pattern": "scale",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "luxury-slow",
+      "version": "1.0.0",
+      "name": "Luxury Slow",
+      "description": "Luxury Slow configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 1.1,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 10,
+      "scale": 1,
+      "stagger": 0.18,
+      "spring": null,
+      "hover": 1.008,
+      "scroll": true,
+      "pattern": "fade",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "no-motion",
+      "version": "1.0.0",
+      "name": "No Motion",
+      "description": "No Motion configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 0,
+      "scale": 1,
+      "stagger": 0,
+      "spring": null,
+      "hover": 1,
+      "scroll": false,
+      "pattern": "none",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "parallax-light",
+      "version": "1.0.0",
+      "name": "Parallax Light",
+      "description": "Parallax Light configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.65,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 16,
+      "scale": 1,
+      "stagger": 0.06,
+      "spring": null,
+      "hover": 1.015,
+      "scroll": true,
+      "pattern": "parallax",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "playful",
+      "version": "1.0.0",
+      "name": "Playful",
+      "description": "Playful configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.45,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 20,
+      "scale": 0.9,
+      "stagger": 0.08,
+      "spring": {
+        "stiffness": 240,
+        "damping": 16,
+        "mass": 1
+      },
+      "hover": 1.045,
+      "scroll": false,
+      "pattern": "scale",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "premium-smooth",
+      "version": "1.0.0",
+      "name": "Premium Smooth",
+      "description": "Premium Smooth configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.55,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 18,
+      "scale": 1,
+      "stagger": 0.07,
+      "spring": null,
+      "hover": 1.015,
+      "scroll": true,
+      "pattern": "slide",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "scale-reveal",
+      "version": "1.0.0",
+      "name": "Scale Reveal",
+      "description": "Scale Reveal configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.35,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 0,
+      "scale": 0.92,
+      "stagger": 0.05,
+      "spring": null,
+      "hover": 1.03,
+      "scroll": true,
+      "pattern": "scale",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "slide-reveal",
+      "version": "1.0.0",
+      "name": "Slide Reveal",
+      "description": "Slide Reveal configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.45,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 32,
+      "scale": 1,
+      "stagger": 0.06,
+      "spring": null,
+      "hover": 1.015,
+      "scroll": true,
+      "pattern": "slide",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "spring-interactive",
+      "version": "1.0.0",
+      "name": "Spring Interactive",
+      "description": "Spring Interactive configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.3,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 12,
+      "scale": 0.97,
+      "stagger": 0.04,
+      "spring": {
+        "stiffness": 300,
+        "damping": 24,
+        "mass": 1
+      },
+      "hover": 1.025,
+      "scroll": false,
+      "pattern": "scale",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "stagger-reveal",
+      "version": "1.0.0",
+      "name": "Stagger Reveal",
+      "description": "Stagger Reveal configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.4,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 22,
+      "scale": 1,
+      "stagger": 0.1,
+      "spring": null,
+      "hover": 1.02,
+      "scroll": true,
+      "pattern": "stagger",
+      "reducedMotion": "disable"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "subtle",
+      "version": "1.0.0",
+      "name": "Subtle",
+      "description": "Subtle configurable motion; disabled for reduced motion.",
+      "tags": [
+        "motion"
+      ],
+      "files": [
+        "components/motion/primitives.tsx",
+        "components/motion/patterns.tsx",
+        "lib/motion.ts"
+      ],
+      "dependencies": [
+        "motion",
+        "react",
+        "zod"
+      ],
+      "kind": "motion",
+      "duration": 0.18,
+      "ease": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "distance": 6,
+      "scale": 1,
+      "stagger": 0.025,
+      "spring": null,
+      "hover": 1.01,
+      "scroll": false,
+      "pattern": "fade",
+      "reducedMotion": "disable"
+    }
+  ]
+}

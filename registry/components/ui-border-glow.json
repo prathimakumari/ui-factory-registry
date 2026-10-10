@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "ui-border-glow",
+  "version": "1.0.0",
+  "kind": "component",
+  "name": "Ui Border Glow",
+  "description": "Container-sized decorative border with intensity, speed, pause, and reduced-motion support.",
+  "tags": ["effect", "border", "glow"],
+  "files": ["components/ui/effects.tsx", "styles/effects.css"],
+  "dependencies": ["react", "class-variance-authority", "clsx", "radix-ui", "tailwind-merge"],
+  "exportName": "BorderGlow",
+  "group": "ui",
+  "responsive": true,
+  "accessible": true
+}

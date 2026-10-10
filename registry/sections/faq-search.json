@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "faq-search",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Faq Search",
+  "description": "Search faq composition.",
+  "tags": ["section"],
+  "files": ["components/sections/faq.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "FaqSection",
+  "group": "faq",
+  "variant": "search",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

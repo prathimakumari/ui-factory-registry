@@ -1,0 +1,89 @@
+{
+  "brand": "Daylight",
+  "products": [
+    {
+      "id": "bottle",
+      "name": "Everyday bottle",
+      "category": "Essentials",
+      "price": 28,
+      "detail": "A light, reusable bottle for slow mornings and busy afternoons.",
+      "symbol": "◒"
+    },
+    {
+      "id": "notebook",
+      "name": "Field notebook",
+      "category": "Workspace",
+      "price": 18,
+      "detail": "Space for observations, sketches and your next good idea.",
+      "symbol": "▤"
+    },
+    {
+      "id": "lamp",
+      "name": "Reading light",
+      "category": "Workspace",
+      "price": 64,
+      "detail": "A warm pool of light, wherever your evening takes you.",
+      "symbol": "◠"
+    },
+    {
+      "id": "bag",
+      "name": "Weekend tote",
+      "category": "Essentials",
+      "price": 42,
+      "detail": "Room for the little things that make a day your own.",
+      "symbol": "▱"
+    }
+  ],
+  "onboarding": [
+    {
+      "title": "A little space for you.",
+      "description": "Make room for useful routines, thoughtful things and quieter moments.",
+      "symbol": "✦"
+    },
+    {
+      "title": "Small steps add up.",
+      "description": "Choose a daily practice and make progress at a pace that feels right.",
+      "symbol": "◒"
+    },
+    {
+      "title": "Make it your own.",
+      "description": "Explore your dashboard, discover essentials and book time to recharge.",
+      "symbol": "✳"
+    }
+  ],
+  "activity": [
+    {
+      "id": "a1",
+      "title": "Your weekly reflection is ready",
+      "description": "You completed three of four daily practices.",
+      "time": "10 minutes ago",
+      "unread": true
+    },
+    {
+      "id": "a2",
+      "title": "A message from Jordan",
+      "description": "Your session notes are ready to explore.",
+      "time": "1 hour ago",
+      "unread": true
+    },
+    {
+      "id": "a3",
+      "title": "Welcome to Daylight",
+      "description": "Find your next small step in your dashboard.",
+      "time": "Yesterday",
+      "unread": false
+    }
+  ],
+  "messages": [
+    { "id": 1, "text": "Hi Alex! How did your morning practice go?", "own": false },
+    { "id": 2, "text": "A quiet start made a real difference. Thank you!", "own": true },
+    { "id": 3, "text": "Lovely. We can build on that in your next session.", "own": false }
+  ],
+  "services": [
+    { "id": "reset", "name": "Mindful reset", "duration": "30 minutes", "price": 35 },
+    { "id": "focus", "name": "Focus coaching", "duration": "45 minutes", "price": 55 }
+  ],
+  "days": ["Mon 12", "Tue 13", "Wed 14", "Thu 15", "Fri 16"],
+  "times": ["09:00", "11:00", "14:00", "16:00"],
+  "finishes": ["Natural", "Ocean", "Forest"]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "testimonials-editorial",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Testimonials Editorial",
+  "description": "Editorial testimonials composition.",
+  "tags": ["section"],
+  "files": ["components/sections/testimonials.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "TestimonialsSection",
+  "group": "testimonials",
+  "variant": "editorial",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

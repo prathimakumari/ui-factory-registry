@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "energetic",
+  "version": "1.0.0",
+  "kind": "motion",
+  "name": "Energetic",
+  "description": "Energetic configurable motion; disabled for reduced motion.",
+  "tags": ["motion"],
+  "files": ["components/motion/primitives.tsx", "components/motion/patterns.tsx", "lib/motion.ts"],
+  "dependencies": ["motion", "react", "zod"],
+  "duration": 0.24,
+  "ease": [0.22, 1, 0.36, 1],
+  "distance": 28,
+  "scale": 0.95,
+  "stagger": 0.045,
+  "spring": {
+    "stiffness": 400,
+    "damping": 20,
+    "mass": 0.8
+  },
+  "hover": 1.04,
+  "scroll": false,
+  "pattern": "slide",
+  "reducedMotion": "disable"
+}

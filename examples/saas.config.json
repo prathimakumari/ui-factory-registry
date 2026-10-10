@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "template": "saas-landing-01",
+  "style": "modern-minimal",
+  "theme": "ocean-blue",
+  "motion": "premium-smooth",
+  "mode": "light",
+  "overrides": {},
+  "card": "plain",
+  "content": {}
+}

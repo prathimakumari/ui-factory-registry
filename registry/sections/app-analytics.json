@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "app-analytics",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "App Analytics",
+  "description": "Analytics app composition.",
+  "tags": ["section"],
+  "files": ["components/dashboards/workspaces.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "AppSection",
+  "group": "app",
+  "variant": "analytics",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

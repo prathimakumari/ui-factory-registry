@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "template": "multi-tenant-saas-dashboard",
+  "style": "corporate-enterprise",
+  "theme": "indigo",
+  "motion": "dashboard-fast",
+  "mode": "light",
+  "overrides": {},
+  "card": "plain",
+  "content": {}
+}

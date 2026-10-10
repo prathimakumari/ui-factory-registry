@@ -1,0 +1,1 @@
+Read AGENTS.md and docs/extension-guide.md. Search component and section IDs before creating a new implementation. Keep the API semantic and typed, accept className, use shared tokens and motion, preserve keyboard and reduced-motion behavior, register source/dependency metadata, and run relevant validation and browser checks.

@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "id": "event-conference",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Event Conference",
+  "description": "Two days of honest conversations about design, technology, and what comes next.",
+  "tags": ["specialized", "countdown", "next-/-26"],
+  "files": ["registry/templates/event-conference.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "specialized",
+  "defaultStyleId": "neo-brutalism",
+  "defaultThemeId": "citrus",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-split",
+      "key": "navbar-split",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "NEXT / 26",
+        "href": "#content-events",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-countdown",
+      "key": "hero-countdown",
+      "content": {
+        "eyebrow": "NEXT / 26",
+        "title": "Ideas move us forward.",
+        "description": "Two days of honest conversations about design, technology, and what comes next.",
+        "action": "Explore NEXT / 26",
+        "href": "#content-events",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-events",
+      "key": "content-events",
+      "content": {
+        "eyebrow": "Events",
+        "title": "What's coming up",
+        "href": "#content-events",
+        "items": [
+          {
+            "title": "Opening conversations",
+            "description": "Oct 22 · 9:30 AM · Main stage"
+          },
+          {
+            "title": "Ideas into practice",
+            "description": "Oct 22 · 2:00 PM · Studio A"
+          },
+          {
+            "title": "Community gathering",
+            "description": "Oct 23 · 5:30 PM · Courtyard"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-team",
+      "key": "content-team",
+      "content": {
+        "eyebrow": "Team",
+        "title": "Good people. Shared purpose.",
+        "href": "#content-events",
+        "items": [
+          {
+            "title": "Morgan Ellis",
+            "description": "Founder & creative director"
+          },
+          {
+            "title": "Jordan Lee",
+            "description": "Strategy & operations"
+          },
+          {
+            "title": "Sam Rivera",
+            "description": "Design & experience"
+          },
+          {
+            "title": "Taylor Reed",
+            "description": "Community & partnerships"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pricing-split",
+      "key": "pricing-split",
+      "content": {
+        "eyebrow": "Pricing",
+        "title": "Choose what works for you",
+        "href": "#content-events",
+        "items": [
+          {
+            "title": "Starter",
+            "description": "For individuals getting started"
+          },
+          {
+            "title": "Team",
+            "description": "For growing teams doing more"
+          },
+          {
+            "title": "Scale",
+            "description": "For organizations with bigger ambitions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-schedule",
+      "key": "content-schedule",
+      "content": {
+        "eyebrow": "Schedule",
+        "title": "Find your next session",
+        "href": "#content-events",
+        "items": [
+          {
+            "title": "Foundations",
+            "description": "Monday · 8:00 AM · 45 minutes"
+          },
+          {
+            "title": "Build & progress",
+            "description": "Wednesday · 12:00 PM · 60 minutes"
+          },
+          {
+            "title": "Weekend session",
+            "description": "Saturday · 9:00 AM · 90 minutes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq-grid",
+      "key": "faq-grid",
+      "content": {
+        "eyebrow": "Faq",
+        "title": "A few things you might be wondering",
+        "href": "#content-events",
+        "items": [
+          {
+            "title": "How do I get started?",
+            "description": "Choose the option that suits you and follow the guided steps. You can explore the demo before making a decision."
+          },
+          {
+            "title": "Can I change my selection later?",
+            "description": "Yes. Your needs can change, and the experience is designed to grow with you."
+          },
+          {
+            "title": "Is support available?",
+            "description": "The sample support form demonstrates the flow locally. Connect your own support service for production."
+          },
+          {
+            "title": "What is included?",
+            "description": "All listed features are included in the selected option. Review the comparison for details."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "LET’S CONNECT",
+        "title": "Start a conversation.",
+        "description": "Tell us a little about what you have in mind.",
+        "items": []
+      }
+    },
+    {
+      "id": "footer-columns",
+      "key": "footer-columns",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "NEXT / 26",
+        "href": "#content-events",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

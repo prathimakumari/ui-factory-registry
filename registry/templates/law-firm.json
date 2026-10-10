@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "id": "law-firm",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Law Firm",
+  "description": "Experienced legal guidance for businesses, families, and the decisions that matter most.",
+  "tags": ["industry", "profile", "hart-&-lowe"],
+  "files": ["registry/templates/law-firm.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "industry",
+  "defaultStyleId": "luxury-premium",
+  "defaultThemeId": "midnight",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-split",
+      "key": "navbar-split",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "Hart & Lowe",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-profile",
+      "key": "hero-profile",
+      "content": {
+        "eyebrow": "Hart & Lowe",
+        "title": "Sound counsel. Clear direction.",
+        "description": "Experienced legal guidance for businesses, families, and the decisions that matter most.",
+        "action": "Explore Hart & Lowe",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ],
+        "image": "/images/architecture.jpg"
+      }
+    },
+    {
+      "id": "content-services",
+      "key": "content-services",
+      "content": {
+        "eyebrow": "Services",
+        "title": "How we can help",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "Business law",
+            "description": "Contracts, company formation, and commercial advice."
+          },
+          {
+            "title": "Family matters",
+            "description": "Clear, compassionate guidance through change."
+          },
+          {
+            "title": "Property & estates",
+            "description": "Protecting your interests and planning ahead."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-team",
+      "key": "content-team",
+      "content": {
+        "eyebrow": "Team",
+        "title": "Good people. Shared purpose.",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "Morgan Ellis",
+            "description": "Founder & creative director"
+          },
+          {
+            "title": "Jordan Lee",
+            "description": "Strategy & operations"
+          },
+          {
+            "title": "Sam Rivera",
+            "description": "Design & experience"
+          },
+          {
+            "title": "Taylor Reed",
+            "description": "Community & partnerships"
+          }
+        ]
+      }
+    },
+    {
+      "id": "features-numbered",
+      "key": "features-numbered",
+      "content": {
+        "eyebrow": "Features",
+        "title": "Everything you need. Nothing in your way.",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq-stack",
+      "key": "faq-stack",
+      "content": {
+        "eyebrow": "Faq",
+        "title": "A few things you might be wondering",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "How do I get started?",
+            "description": "Choose the option that suits you and follow the guided steps. You can explore the demo before making a decision."
+          },
+          {
+            "title": "Can I change my selection later?",
+            "description": "Yes. Your needs can change, and the experience is designed to grow with you."
+          },
+          {
+            "title": "Is support available?",
+            "description": "The sample support form demonstrates the flow locally. Connect your own support service for production."
+          },
+          {
+            "title": "What is included?",
+            "description": "All listed features are included in the selected option. Review the comparison for details."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "Contact",
+        "title": "Let's start a conversation",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "footer-newsletter",
+      "key": "footer-newsletter",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "Hart & Lowe",
+        "href": "#content-services",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

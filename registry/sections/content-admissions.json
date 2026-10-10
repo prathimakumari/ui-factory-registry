@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "content-admissions",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Content Admissions",
+  "description": "Admissions content composition.",
+  "tags": ["section"],
+  "files": ["components/sections/content.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "ContentSection",
+  "group": "content",
+  "variant": "admissions",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

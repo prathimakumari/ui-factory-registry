@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ui-empty-state",
+  "version": "1.0.0",
+  "kind": "component",
+  "name": "Ui Empty State",
+  "description": "Empty State accessible reusable primitive.",
+  "tags": ["component"],
+  "files": ["components/ui/primitives.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "EmptyState",
+  "group": "ui",
+  "responsive": true,
+  "accessible": true
+}

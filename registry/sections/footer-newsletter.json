@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "footer-newsletter",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Footer Newsletter",
+  "description": "Newsletter footer composition.",
+  "tags": ["section"],
+  "files": ["components/sections/footer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "FooterSection",
+  "group": "footer",
+  "variant": "newsletter",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

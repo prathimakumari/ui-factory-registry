@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "cta-download",
+  "version": "1.0.0",
+  "kind": "section",
+  "name": "Cta Download",
+  "description": "Download cta composition.",
+  "tags": ["section"],
+  "files": ["components/sections/cta.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "exportName": "CtaSection",
+  "group": "cta",
+  "variant": "download",
+  "components": ["ui-button", "ui-card"],
+  "responsive": true,
+  "accessible": true
+}

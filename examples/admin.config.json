@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "template": "admin-dashboard",
+  "style": "corporate-enterprise",
+  "theme": "enterprise-neutral",
+  "motion": "dashboard-fast",
+  "mode": "light",
+  "overrides": {},
+  "card": "plain",
+  "content": {}
+}

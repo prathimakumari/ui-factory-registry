@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "id": "docs-developer",
+  "version": "1.0.0",
+  "kind": "template",
+  "name": "Docs Developer",
+  "description": "Practical guides and an approachable API for shipping your next integration.",
+  "tags": ["content-commerce", "search", "orbit-docs"],
+  "files": ["registry/templates/docs-developer.json", "lib/template-renderer.tsx"],
+  "dependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "motion",
+    "radix-ui",
+    "react",
+    "tailwind-merge",
+    "zod"
+  ],
+  "category": "content-commerce",
+  "defaultStyleId": "modern-minimal",
+  "defaultThemeId": "indigo",
+  "defaultMotionId": "premium-smooth",
+  "defaultMode": "light",
+  "compatibleStyles": [
+    "modern-minimal",
+    "corporate-enterprise",
+    "glassmorphism",
+    "neo-brutalism",
+    "luxury-premium",
+    "editorial-magazine",
+    "swiss-grid",
+    "soft-ui",
+    "dark-cinematic",
+    "cyberpunk",
+    "retro-arcade",
+    "playful-friendly",
+    "organic-natural",
+    "gradient-tech",
+    "monochrome",
+    "bento-modern",
+    "industrial",
+    "warm-human",
+    "futuristic-spatial",
+    "creative-expressive"
+  ],
+  "supportedThemes": [
+    "ocean-blue",
+    "royal-purple",
+    "emerald",
+    "sunset-orange",
+    "ruby-red",
+    "rose",
+    "violet",
+    "midnight",
+    "slate-neutral",
+    "warm-sand",
+    "forest",
+    "teal",
+    "indigo",
+    "sky",
+    "lavender",
+    "citrus",
+    "coral",
+    "coffee",
+    "luxury-gold",
+    "monochrome-dark",
+    "aurora",
+    "cyberpunk-neon",
+    "pastel",
+    "enterprise-neutral"
+  ],
+  "supportedMotion": [
+    "no-motion",
+    "subtle",
+    "premium-smooth",
+    "spring-interactive",
+    "energetic",
+    "editorial",
+    "stagger-reveal",
+    "fade-reveal",
+    "slide-reveal",
+    "scale-reveal",
+    "parallax-light",
+    "cinematic",
+    "futuristic",
+    "playful",
+    "dashboard-fast",
+    "luxury-slow"
+  ],
+  "components": ["ui-button", "ui-card"],
+  "sections": [
+    {
+      "id": "navbar-compact",
+      "key": "navbar-compact",
+      "content": {
+        "eyebrow": "Navbar",
+        "title": "Orbit Docs",
+        "href": "#features-icon-list",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero-search",
+      "key": "hero-search",
+      "content": {
+        "eyebrow": "Orbit Docs",
+        "title": "Build with confidence.",
+        "description": "Practical guides and an approachable API for shipping your next integration.",
+        "action": "Explore Orbit Docs",
+        "href": "#features-icon-list",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "features-icon-list",
+      "key": "features-icon-list",
+      "content": {
+        "eyebrow": "Features",
+        "title": "Everything you need. Nothing in your way.",
+        "href": "#features-icon-list",
+        "items": [
+          {
+            "title": "Start building",
+            "description": "Install the client and make your first request in a few steps."
+          },
+          {
+            "title": "Explore the API",
+            "description": "Typed resources, predictable responses, and practical examples."
+          },
+          {
+            "title": "Solve a problem",
+            "description": "Troubleshooting guides for the questions developers ask most."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-docs",
+      "key": "content-docs",
+      "content": {
+        "eyebrow": "Course",
+        "title": "Developer guides",
+        "href": "#features-icon-list",
+        "items": [
+          {
+            "title": "Quickstart",
+            "description": "Install the client and make your first request."
+          },
+          {
+            "title": "Authentication",
+            "description": "Configure keys using environment variables."
+          },
+          {
+            "title": "Working with data",
+            "description": "Read, create, and update resources."
+          },
+          {
+            "title": "Error handling",
+            "description": "Understand response codes and retry behavior."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-faq-search",
+      "key": "content-faq-search",
+      "content": {
+        "eyebrow": "Faq Search",
+        "title": "Find the answer you need",
+        "href": "#features-icon-list",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta-card",
+      "key": "cta-card",
+      "content": {
+        "eyebrow": "Cta",
+        "title": "Make your next move",
+        "description": "Explore what is possible. Start with one simple step.",
+        "href": "#features-icon-list",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "content-contact",
+      "key": "content-contact",
+      "content": {
+        "eyebrow": "LET’S CONNECT",
+        "title": "Start a conversation.",
+        "description": "Tell us a little about what you have in mind.",
+        "items": []
+      }
+    },
+    {
+      "id": "footer-editorial",
+      "key": "footer-editorial",
+      "content": {
+        "eyebrow": "Footer",
+        "title": "Orbit Docs",
+        "href": "#features-icon-list",
+        "items": [
+          {
+            "title": "A clear starting point",
+            "description": "Everything you need, thoughtfully organized."
+          },
+          {
+            "title": "Built around your day",
+            "description": "Flexible tools that adapt to the way you work."
+          },
+          {
+            "title": "Room to grow",
+            "description": "Start simply. Add more when you need it."
+          },
+          {
+            "title": "People first",
+            "description": "Accessible, intuitive experiences for everyone."
+          }
+        ]
+      }
+    }
+  ],
+  "responsive": true,
+  "accessible": true
+}

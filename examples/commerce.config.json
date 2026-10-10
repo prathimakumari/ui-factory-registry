@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "template": "ecommerce-premium-store",
+  "style": "luxury-premium",
+  "theme": "coffee",
+  "motion": "luxury-slow",
+  "mode": "light",
+  "overrides": {},
+  "card": "plain",
+  "content": {}
+}
